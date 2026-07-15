@@ -1,0 +1,19 @@
+# Dependencies and generated builds
+site/node_modules/
+site/.next/
+site/out/
+site/.codex-server/
+site/tsconfig.tsbuildinfo
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+site/.env
+site/.env.*
+!site/.env.example
+
+# Logs and operating-system files
+*.log
+.DS_Store
+Thumbs.db

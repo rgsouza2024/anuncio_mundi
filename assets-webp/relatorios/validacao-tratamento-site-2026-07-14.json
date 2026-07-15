@@ -1,0 +1,111 @@
+{
+  "count": 17,
+  "minimum_ssim": 0.966811,
+  "maximum_mean_absolute_change": 5.0,
+  "dimensions_preserved": true,
+  "forbidden_metadata_absent": true,
+  "files": [
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\site\\public\\images\\apoio\\area-servico.webp",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\site\\.image-treatment-staging\\tratada-001.webp",
+      "ssim": 0.980011,
+      "mean_absolute_change": 3.96
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\site\\public\\images\\apoio\\circulacao-suites.webp",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\site\\.image-treatment-staging\\tratada-002.webp",
+      "ssim": 0.979394,
+      "mean_absolute_change": 3.4
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\site\\public\\images\\apoio\\hall-entrada.webp",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\site\\.image-treatment-staging\\tratada-003.webp",
+      "ssim": 0.974239,
+      "mean_absolute_change": 4.56
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\site\\public\\images\\banheiros\\banheiro-suite-principal.webp",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\site\\.image-treatment-staging\\tratada-004.webp",
+      "ssim": 0.977234,
+      "mean_absolute_change": 3.65
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\site\\public\\images\\banheiros\\banheiro-suite.webp",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\site\\.image-treatment-staging\\tratada-005.webp",
+      "ssim": 0.975733,
+      "mean_absolute_change": 4.33
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\site\\public\\images\\banheiros\\lavabo-onix-detalhe.webp",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\site\\.image-treatment-staging\\tratada-006.webp",
+      "ssim": 0.9758,
+      "mean_absolute_change": 3.83
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\site\\public\\images\\banheiros\\lavabo-onix.webp",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\site\\.image-treatment-staging\\tratada-007.webp",
+      "ssim": 0.971274,
+      "mean_absolute_change": 3.51
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\site\\public\\images\\cozinha\\churrasqueira-carvao.webp",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\site\\.image-treatment-staging\\tratada-008.webp",
+      "ssim": 0.974495,
+      "mean_absolute_change": 4.5
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\site\\public\\images\\cozinha\\cozinha-eletrodomesticos.webp",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\site\\.image-treatment-staging\\tratada-009.webp",
+      "ssim": 0.97531,
+      "mean_absolute_change": 3.99
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\site\\public\\images\\cozinha\\cozinha-planejada.webp",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\site\\.image-treatment-staging\\tratada-010.webp",
+      "ssim": 0.978152,
+      "mean_absolute_change": 5.0
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\site\\public\\images\\cozinha\\varanda-gourmet-integrada.webp",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\site\\.image-treatment-staging\\tratada-011.webp",
+      "ssim": 0.976856,
+      "mean_absolute_change": 3.89
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\site\\public\\images\\social\\area-social-integrada.webp",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\site\\.image-treatment-staging\\tratada-012.webp",
+      "ssim": 0.975652,
+      "mean_absolute_change": 4.01
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\site\\public\\images\\social\\sala-integrada.webp",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\site\\.image-treatment-staging\\tratada-013.webp",
+      "ssim": 0.970224,
+      "mean_absolute_change": 4.63
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\site\\public\\images\\social\\sala-varanda.webp",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\site\\.image-treatment-staging\\tratada-014.webp",
+      "ssim": 0.966811,
+      "mean_absolute_change": 4.38
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\site\\public\\images\\suites\\suite-dois.webp",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\site\\.image-treatment-staging\\tratada-015.webp",
+      "ssim": 0.977115,
+      "mean_absolute_change": 4.94
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\site\\public\\images\\suites\\suite-principal.webp",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\site\\.image-treatment-staging\\tratada-016.webp",
+      "ssim": 0.982193,
+      "mean_absolute_change": 4.22
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\site\\public\\images\\suites\\suite-tres.webp",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\site\\.image-treatment-staging\\tratada-017.webp",
+      "ssim": 0.977243,
+      "mean_absolute_change": 4.67
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "count": 2,
+  "lossless": false,
+  "quality": 82,
+  "enhance_photo": true,
+  "enhancement_profile": "adaptive-faithful-v2",
+  "deleted_originals": false,
+  "source_bytes": 3864764,
+  "target_bytes": 203332,
+  "saved_bytes": 3661432,
+  "saved_percent": 94.74,
+  "files": [
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\foto-053.png",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\assets-webp\\fotos\\suite-escritorio-001.webp",
+      "width": 1448,
+      "height": 1086,
+      "source_bytes": 1878232,
+      "target_bytes": 106484,
+      "enhanced": true,
+      "enhancement": {
+        "mean_absolute_change": 8.34,
+        "analysis": {
+          "luminance_p02": 57,
+          "luminance_median": 176,
+          "luminance_p98": 223,
+          "dynamic_range": 166,
+          "saturation_mean": 36.65,
+          "detail_score": 2.09,
+          "noise_proxy": 1.29
+        },
+        "corrections": {
+          "white_balance_gains": [
+            0.9851,
+            0.9863,
+            1.02
+          ],
+          "exposure_factor": 0.9817,
+          "tonal_blend": 0.24,
+          "shadow_lift": 0.0,
+          "contrast_factor": 1.025,
+          "saturation_factor": 1.01,
+          "denoise_blend": 0.0,
+          "sharpen_percent": 70
+        }
+      }
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\foto.png",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\assets-webp\\fotos\\suite-escritorio-002.webp",
+      "width": 1448,
+      "height": 1086,
+      "source_bytes": 1986532,
+      "target_bytes": 96848,
+      "enhanced": true,
+      "enhancement": {
+        "mean_absolute_change": 3.88,
+        "analysis": {
+          "luminance_p02": 96,
+          "luminance_median": 168,
+          "luminance_p98": 223,
+          "dynamic_range": 127,
+          "saturation_mean": 45.77,
+          "detail_score": 1.7,
+          "noise_proxy": 1.08
+        },
+        "corrections": {
+          "white_balance_gains": [
+            0.98,
+            0.9976,
+            1.02
+          ],
+          "exposure_factor": 1.0,
+          "tonal_blend": 0.24,
+          "shadow_lift": 0.0,
+          "contrast_factor": 1.04,
+          "saturation_factor": 1.01,
+          "denoise_blend": 0.0,
+          "sharpen_percent": 70
+        }
+      }
+    }
+  ]
+}

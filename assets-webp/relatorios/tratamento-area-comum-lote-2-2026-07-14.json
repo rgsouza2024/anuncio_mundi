@@ -1,0 +1,749 @@
+{
+  "count": 21,
+  "lossless": false,
+  "quality": 82,
+  "enhance_photo": true,
+  "enhancement_profile": "adaptive-faithful-v2",
+  "deleted_originals": false,
+  "source_bytes": 1237812,
+  "target_bytes": 1264022,
+  "saved_bytes": -26210,
+  "saved_percent": -2.12,
+  "files": [
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\Área Comum\\01.webp",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\assets-webp\\area-comum-lote-2\\area-comum-lote2-001.webp",
+      "width": 640,
+      "height": 348,
+      "source_bytes": 28884,
+      "target_bytes": 32486,
+      "enhanced": true,
+      "enhancement": {
+        "mean_absolute_change": 5.65,
+        "analysis": {
+          "luminance_p02": 30,
+          "luminance_median": 165,
+          "luminance_p98": 255,
+          "dynamic_range": 225,
+          "saturation_mean": 32.36,
+          "detail_score": 5.62,
+          "noise_proxy": 3.29
+        },
+        "corrections": {
+          "white_balance_gains": [
+            0.9812,
+            1.0048,
+            1.0146
+          ],
+          "exposure_factor": 1.0,
+          "tonal_blend": 0.15,
+          "shadow_lift": 0.0,
+          "contrast_factor": 1.01,
+          "saturation_factor": 1.02,
+          "denoise_blend": 0.0,
+          "sharpen_percent": 55
+        }
+      }
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\Área Comum\\02.webp",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\assets-webp\\area-comum-lote-2\\area-comum-lote2-002.webp",
+      "width": 640,
+      "height": 348,
+      "source_bytes": 27038,
+      "target_bytes": 30946,
+      "enhanced": true,
+      "enhancement": {
+        "mean_absolute_change": 4.61,
+        "analysis": {
+          "luminance_p02": 12,
+          "luminance_median": 128,
+          "luminance_p98": 176,
+          "dynamic_range": 164,
+          "saturation_mean": 49.01,
+          "detail_score": 5.23,
+          "noise_proxy": 3.51
+        },
+        "corrections": {
+          "white_balance_gains": [
+            0.98,
+            0.98,
+            1.02
+          ],
+          "exposure_factor": 1.0,
+          "tonal_blend": 0.24,
+          "shadow_lift": 0.0,
+          "contrast_factor": 1.025,
+          "saturation_factor": 1.01,
+          "denoise_blend": 0.0,
+          "sharpen_percent": 55
+        }
+      }
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\Área Comum\\03.webp",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\assets-webp\\area-comum-lote-2\\area-comum-lote2-003.webp",
+      "width": 640,
+      "height": 348,
+      "source_bytes": 16124,
+      "target_bytes": 18498,
+      "enhanced": true,
+      "enhancement": {
+        "mean_absolute_change": 4.55,
+        "analysis": {
+          "luminance_p02": 11,
+          "luminance_median": 120,
+          "luminance_p98": 247,
+          "dynamic_range": 236,
+          "saturation_mean": 60.27,
+          "detail_score": 3.38,
+          "noise_proxy": 1.48
+        },
+        "corrections": {
+          "white_balance_gains": [
+            0.98,
+            1.0022,
+            1.02
+          ],
+          "exposure_factor": 1.0,
+          "tonal_blend": 0.15,
+          "shadow_lift": 0.0,
+          "contrast_factor": 1.01,
+          "saturation_factor": 1.0,
+          "denoise_blend": 0.0,
+          "sharpen_percent": 70
+        }
+      }
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\Área Comum\\04.webp",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\assets-webp\\area-comum-lote-2\\area-comum-lote2-004.webp",
+      "width": 640,
+      "height": 348,
+      "source_bytes": 37012,
+      "target_bytes": 42044,
+      "enhanced": true,
+      "enhancement": {
+        "mean_absolute_change": 4.82,
+        "analysis": {
+          "luminance_p02": 18,
+          "luminance_median": 148,
+          "luminance_p98": 254,
+          "dynamic_range": 236,
+          "saturation_mean": 80.17,
+          "detail_score": 6.36,
+          "noise_proxy": 4.24
+        },
+        "corrections": {
+          "white_balance_gains": [
+            0.9881,
+            1.0014,
+            1.0107
+          ],
+          "exposure_factor": 1.0,
+          "tonal_blend": 0.15,
+          "shadow_lift": 0.0,
+          "contrast_factor": 1.01,
+          "saturation_factor": 1.0,
+          "denoise_blend": 0.0,
+          "sharpen_percent": 55
+        }
+      }
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\Área Comum\\05.webp",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\assets-webp\\area-comum-lote-2\\area-comum-lote2-005.webp",
+      "width": 640,
+      "height": 348,
+      "source_bytes": 35750,
+      "target_bytes": 40158,
+      "enhanced": true,
+      "enhancement": {
+        "mean_absolute_change": 9.53,
+        "analysis": {
+          "luminance_p02": 31,
+          "luminance_median": 183,
+          "luminance_p98": 255,
+          "dynamic_range": 224,
+          "saturation_mean": 43.77,
+          "detail_score": 5.86,
+          "noise_proxy": 4.12
+        },
+        "corrections": {
+          "white_balance_gains": [
+            1.02,
+            0.9951,
+            0.98
+          ],
+          "exposure_factor": 0.97,
+          "tonal_blend": 0.15,
+          "shadow_lift": 0.0,
+          "contrast_factor": 1.01,
+          "saturation_factor": 1.01,
+          "denoise_blend": 0.0,
+          "sharpen_percent": 55
+        }
+      }
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\Área Comum\\06.webp",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\assets-webp\\area-comum-lote-2\\area-comum-lote2-006.webp",
+      "width": 640,
+      "height": 348,
+      "source_bytes": 40282,
+      "target_bytes": 45094,
+      "enhanced": true,
+      "enhancement": {
+        "mean_absolute_change": 3.79,
+        "analysis": {
+          "luminance_p02": 11,
+          "luminance_median": 55,
+          "luminance_p98": 245,
+          "dynamic_range": 234,
+          "saturation_mean": 86.97,
+          "detail_score": 7.21,
+          "noise_proxy": 4.92
+        },
+        "corrections": {
+          "white_balance_gains": [
+            0.98,
+            0.98,
+            1.02
+          ],
+          "exposure_factor": 1.05,
+          "tonal_blend": 0.15,
+          "shadow_lift": 5.0,
+          "contrast_factor": 1.01,
+          "saturation_factor": 0.985,
+          "denoise_blend": 0.0,
+          "sharpen_percent": 40
+        }
+      }
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\Área Comum\\07.webp",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\assets-webp\\area-comum-lote-2\\area-comum-lote2-007.webp",
+      "width": 640,
+      "height": 348,
+      "source_bytes": 40506,
+      "target_bytes": 45394,
+      "enhanced": true,
+      "enhancement": {
+        "mean_absolute_change": 4.44,
+        "analysis": {
+          "luminance_p02": 2,
+          "luminance_median": 49,
+          "luminance_p98": 240,
+          "dynamic_range": 238,
+          "saturation_mean": 124.74,
+          "detail_score": 7.16,
+          "noise_proxy": 5.31
+        },
+        "corrections": {
+          "white_balance_gains": [
+            0.98,
+            0.98,
+            1.02
+          ],
+          "exposure_factor": 1.05,
+          "tonal_blend": 0.15,
+          "shadow_lift": 5.5,
+          "contrast_factor": 1.01,
+          "saturation_factor": 0.97,
+          "denoise_blend": 0.0,
+          "sharpen_percent": 40
+        }
+      }
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\Área Comum\\08.webp",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\assets-webp\\area-comum-lote-2\\area-comum-lote2-008.webp",
+      "width": 640,
+      "height": 348,
+      "source_bytes": 18762,
+      "target_bytes": 21674,
+      "enhanced": true,
+      "enhancement": {
+        "mean_absolute_change": 5.39,
+        "analysis": {
+          "luminance_p02": 26,
+          "luminance_median": 145,
+          "luminance_p98": 254,
+          "dynamic_range": 228,
+          "saturation_mean": 51.27,
+          "detail_score": 4.23,
+          "noise_proxy": 1.93
+        },
+        "corrections": {
+          "white_balance_gains": [
+            0.98,
+            1.0013,
+            1.02
+          ],
+          "exposure_factor": 1.0,
+          "tonal_blend": 0.15,
+          "shadow_lift": 0.0,
+          "contrast_factor": 1.01,
+          "saturation_factor": 1.01,
+          "denoise_blend": 0.0,
+          "sharpen_percent": 55
+        }
+      }
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\Área Comum\\09.webp",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\assets-webp\\area-comum-lote-2\\area-comum-lote2-009.webp",
+      "width": 640,
+      "height": 348,
+      "source_bytes": 33518,
+      "target_bytes": 37754,
+      "enhanced": true,
+      "enhancement": {
+        "mean_absolute_change": 4.03,
+        "analysis": {
+          "luminance_p02": 4,
+          "luminance_median": 69,
+          "luminance_p98": 232,
+          "dynamic_range": 228,
+          "saturation_mean": 143.76,
+          "detail_score": 6.05,
+          "noise_proxy": 3.48
+        },
+        "corrections": {
+          "white_balance_gains": [
+            0.98,
+            0.98,
+            1.02
+          ],
+          "exposure_factor": 1.05,
+          "tonal_blend": 0.15,
+          "shadow_lift": 3.83,
+          "contrast_factor": 1.01,
+          "saturation_factor": 0.97,
+          "denoise_blend": 0.0,
+          "sharpen_percent": 55
+        }
+      }
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\Área Comum\\10.webp",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\assets-webp\\area-comum-lote-2\\area-comum-lote2-010.webp",
+      "width": 640,
+      "height": 348,
+      "source_bytes": 72574,
+      "target_bytes": 79534,
+      "enhanced": true,
+      "enhancement": {
+        "mean_absolute_change": 6.94,
+        "analysis": {
+          "luminance_p02": 16,
+          "luminance_median": 111,
+          "luminance_p98": 232,
+          "dynamic_range": 216,
+          "saturation_mean": 72.98,
+          "detail_score": 13.28,
+          "noise_proxy": 10.97
+        },
+        "corrections": {
+          "white_balance_gains": [
+            0.98,
+            0.985,
+            1.02
+          ],
+          "exposure_factor": 1.0,
+          "tonal_blend": 0.15,
+          "shadow_lift": 0.33,
+          "contrast_factor": 1.025,
+          "saturation_factor": 1.0,
+          "denoise_blend": 0.08,
+          "sharpen_percent": 40
+        }
+      }
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\Área Comum\\11.webp",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\assets-webp\\area-comum-lote-2\\area-comum-lote2-011.webp",
+      "width": 640,
+      "height": 348,
+      "source_bytes": 15306,
+      "target_bytes": 17460,
+      "enhanced": true,
+      "enhancement": {
+        "mean_absolute_change": 4.58,
+        "analysis": {
+          "luminance_p02": 15,
+          "luminance_median": 68,
+          "luminance_p98": 239,
+          "dynamic_range": 224,
+          "saturation_mean": 37.66,
+          "detail_score": 3.77,
+          "noise_proxy": 1.72
+        },
+        "corrections": {
+          "white_balance_gains": [
+            1.02,
+            1.0132,
+            0.98
+          ],
+          "exposure_factor": 1.05,
+          "tonal_blend": 0.15,
+          "shadow_lift": 3.92,
+          "contrast_factor": 1.01,
+          "saturation_factor": 1.01,
+          "denoise_blend": 0.0,
+          "sharpen_percent": 55
+        }
+      }
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\Área Comum\\12.webp",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\assets-webp\\area-comum-lote-2\\area-comum-lote2-012.webp",
+      "width": 640,
+      "height": 348,
+      "source_bytes": 22682,
+      "target_bytes": 25624,
+      "enhanced": true,
+      "enhancement": {
+        "mean_absolute_change": 5.03,
+        "analysis": {
+          "luminance_p02": 14,
+          "luminance_median": 130,
+          "luminance_p98": 198,
+          "dynamic_range": 184,
+          "saturation_mean": 120.85,
+          "detail_score": 4.43,
+          "noise_proxy": 2.51
+        },
+        "corrections": {
+          "white_balance_gains": [
+            0.98,
+            0.98,
+            1.02
+          ],
+          "exposure_factor": 1.0,
+          "tonal_blend": 0.15,
+          "shadow_lift": 0.0,
+          "contrast_factor": 1.025,
+          "saturation_factor": 0.97,
+          "denoise_blend": 0.0,
+          "sharpen_percent": 55
+        }
+      }
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\Área Comum\\13.webp",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\assets-webp\\area-comum-lote-2\\area-comum-lote2-013.webp",
+      "width": 640,
+      "height": 348,
+      "source_bytes": 22654,
+      "target_bytes": 25620,
+      "enhanced": true,
+      "enhancement": {
+        "mean_absolute_change": 4.56,
+        "analysis": {
+          "luminance_p02": 26,
+          "luminance_median": 167,
+          "luminance_p98": 224,
+          "dynamic_range": 198,
+          "saturation_mean": 94.23,
+          "detail_score": 3.62,
+          "noise_proxy": 1.87
+        },
+        "corrections": {
+          "white_balance_gains": [
+            0.98,
+            1.0109,
+            1.02
+          ],
+          "exposure_factor": 1.0,
+          "tonal_blend": 0.15,
+          "shadow_lift": 0.0,
+          "contrast_factor": 1.025,
+          "saturation_factor": 0.985,
+          "denoise_blend": 0.0,
+          "sharpen_percent": 55
+        }
+      }
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\Área Comum\\14.webp",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\assets-webp\\area-comum-lote-2\\area-comum-lote2-014.webp",
+      "width": 640,
+      "height": 348,
+      "source_bytes": 30212,
+      "target_bytes": 34278,
+      "enhanced": true,
+      "enhancement": {
+        "mean_absolute_change": 4.66,
+        "analysis": {
+          "luminance_p02": 18,
+          "luminance_median": 122,
+          "luminance_p98": 213,
+          "dynamic_range": 195,
+          "saturation_mean": 78.2,
+          "detail_score": 4.54,
+          "noise_proxy": 3.02
+        },
+        "corrections": {
+          "white_balance_gains": [
+            0.98,
+            0.9962,
+            1.02
+          ],
+          "exposure_factor": 1.0,
+          "tonal_blend": 0.15,
+          "shadow_lift": 0.0,
+          "contrast_factor": 1.025,
+          "saturation_factor": 1.0,
+          "denoise_blend": 0.0,
+          "sharpen_percent": 55
+        }
+      }
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\Área Comum\\15.webp",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\assets-webp\\area-comum-lote-2\\area-comum-lote2-015.webp",
+      "width": 640,
+      "height": 348,
+      "source_bytes": 57556,
+      "target_bytes": 62566,
+      "enhanced": true,
+      "enhancement": {
+        "mean_absolute_change": 5.61,
+        "analysis": {
+          "luminance_p02": 5,
+          "luminance_median": 103,
+          "luminance_p98": 243,
+          "dynamic_range": 238,
+          "saturation_mean": 68.1,
+          "detail_score": 14.32,
+          "noise_proxy": 11.29
+        },
+        "corrections": {
+          "white_balance_gains": [
+            0.98,
+            1.0096,
+            1.02
+          ],
+          "exposure_factor": 1.0,
+          "tonal_blend": 0.15,
+          "shadow_lift": 1.0,
+          "contrast_factor": 1.01,
+          "saturation_factor": 1.0,
+          "denoise_blend": 0.08,
+          "sharpen_percent": 40
+        }
+      }
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\Área Comum\\16.webp",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\assets-webp\\area-comum-lote-2\\area-comum-lote2-016.webp",
+      "width": 640,
+      "height": 348,
+      "source_bytes": 29934,
+      "target_bytes": 33814,
+      "enhanced": true,
+      "enhancement": {
+        "mean_absolute_change": 5.93,
+        "analysis": {
+          "luminance_p02": 34,
+          "luminance_median": 121,
+          "luminance_p98": 244,
+          "dynamic_range": 210,
+          "saturation_mean": 68.09,
+          "detail_score": 5.41,
+          "noise_proxy": 3.06
+        },
+        "corrections": {
+          "white_balance_gains": [
+            1.0161,
+            1.0118,
+            0.98
+          ],
+          "exposure_factor": 1.0,
+          "tonal_blend": 0.15,
+          "shadow_lift": 0.0,
+          "contrast_factor": 1.025,
+          "saturation_factor": 1.0,
+          "denoise_blend": 0.0,
+          "sharpen_percent": 55
+        }
+      }
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\Área Comum\\17.webp",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\assets-webp\\area-comum-lote-2\\area-comum-lote2-017.webp",
+      "width": 640,
+      "height": 348,
+      "source_bytes": 49362,
+      "target_bytes": 55576,
+      "enhanced": true,
+      "enhancement": {
+        "mean_absolute_change": 5.3,
+        "analysis": {
+          "luminance_p02": 15,
+          "luminance_median": 94,
+          "luminance_p98": 204,
+          "dynamic_range": 189,
+          "saturation_mean": 106.0,
+          "detail_score": 8.51,
+          "noise_proxy": 6.0
+        },
+        "corrections": {
+          "white_balance_gains": [
+            0.98,
+            1.0099,
+            1.02
+          ],
+          "exposure_factor": 1.022,
+          "tonal_blend": 0.15,
+          "shadow_lift": 1.75,
+          "contrast_factor": 1.025,
+          "saturation_factor": 0.985,
+          "denoise_blend": 0.0,
+          "sharpen_percent": 40
+        }
+      }
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\Área Comum\\18.webp",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\assets-webp\\area-comum-lote-2\\area-comum-lote2-018.webp",
+      "width": 640,
+      "height": 348,
+      "source_bytes": 43752,
+      "target_bytes": 48090,
+      "enhanced": true,
+      "enhancement": {
+        "mean_absolute_change": 4.79,
+        "analysis": {
+          "luminance_p02": 9,
+          "luminance_median": 92,
+          "luminance_p98": 239,
+          "dynamic_range": 230,
+          "saturation_mean": 128.54,
+          "detail_score": 9.07,
+          "noise_proxy": 5.48
+        },
+        "corrections": {
+          "white_balance_gains": [
+            0.98,
+            0.98,
+            1.02
+          ],
+          "exposure_factor": 1.026,
+          "tonal_blend": 0.15,
+          "shadow_lift": 1.92,
+          "contrast_factor": 1.01,
+          "saturation_factor": 0.97,
+          "denoise_blend": 0.0,
+          "sharpen_percent": 40
+        }
+      }
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\Área Comum\\19.webp",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\assets-webp\\area-comum-lote-2\\area-comum-lote2-019.webp",
+      "width": 860,
+      "height": 1200,
+      "source_bytes": 237130,
+      "target_bytes": 175256,
+      "enhanced": true,
+      "enhancement": {
+        "mean_absolute_change": 4.61,
+        "analysis": {
+          "luminance_p02": 5,
+          "luminance_median": 134,
+          "luminance_p98": 253,
+          "dynamic_range": 248,
+          "saturation_mean": 86.27,
+          "detail_score": 8.23,
+          "noise_proxy": 5.04
+        },
+        "corrections": {
+          "white_balance_gains": [
+            1.02,
+            0.98,
+            0.98
+          ],
+          "exposure_factor": 1.0,
+          "tonal_blend": 0.15,
+          "shadow_lift": 0.0,
+          "contrast_factor": 1.01,
+          "saturation_factor": 0.985,
+          "denoise_blend": 0.0,
+          "sharpen_percent": 40
+        }
+      }
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\Área Comum\\20.webp",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\assets-webp\\area-comum-lote-2\\area-comum-lote2-020.webp",
+      "width": 476,
+      "height": 1020,
+      "source_bytes": 130900,
+      "target_bytes": 145954,
+      "enhanced": true,
+      "enhancement": {
+        "mean_absolute_change": 5.7,
+        "analysis": {
+          "luminance_p02": 13,
+          "luminance_median": 128,
+          "luminance_p98": 234,
+          "dynamic_range": 221,
+          "saturation_mean": 92.96,
+          "detail_score": 11.68,
+          "noise_proxy": 7.88
+        },
+        "corrections": {
+          "white_balance_gains": [
+            1.02,
+            0.98,
+            0.98
+          ],
+          "exposure_factor": 1.0,
+          "tonal_blend": 0.15,
+          "shadow_lift": 0.0,
+          "contrast_factor": 1.01,
+          "saturation_factor": 0.985,
+          "denoise_blend": 0.08,
+          "sharpen_percent": 40
+        }
+      }
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\Área Comum\\21.webp",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\assets-webp\\area-comum-lote-2\\area-comum-lote2-021.webp",
+      "width": 1360,
+      "height": 1020,
+      "source_bytes": 247874,
+      "target_bytes": 246202,
+      "enhanced": true,
+      "enhancement": {
+        "mean_absolute_change": 3.98,
+        "analysis": {
+          "luminance_p02": 5,
+          "luminance_median": 114,
+          "luminance_p98": 213,
+          "dynamic_range": 208,
+          "saturation_mean": 98.97,
+          "detail_score": 5.46,
+          "noise_proxy": 3.43
+        },
+        "corrections": {
+          "white_balance_gains": [
+            0.9813,
+            0.9839,
+            1.02
+          ],
+          "exposure_factor": 1.0,
+          "tonal_blend": 0.15,
+          "shadow_lift": 0.08,
+          "contrast_factor": 1.01,
+          "saturation_factor": 0.985,
+          "denoise_blend": 0.0,
+          "sharpen_percent": 55
+        }
+      }
+    }
+  ]
+}

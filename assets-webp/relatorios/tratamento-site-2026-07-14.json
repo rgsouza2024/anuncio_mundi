@@ -1,0 +1,609 @@
+{
+  "count": 17,
+  "lossless": false,
+  "quality": 82,
+  "enhance_photo": true,
+  "enhancement_profile": "adaptive-faithful-v2",
+  "deleted_originals": false,
+  "source_bytes": 1216482,
+  "target_bytes": 1469320,
+  "saved_bytes": -252838,
+  "saved_percent": -20.78,
+  "files": [
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\site\\public\\images\\apoio\\area-servico.webp",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\site\\.image-treatment-staging\\tratada-001.webp",
+      "width": 960,
+      "height": 1280,
+      "source_bytes": 57092,
+      "target_bytes": 70246,
+      "enhanced": true,
+      "enhancement": {
+        "mean_absolute_change": 3.96,
+        "analysis": {
+          "luminance_p02": 32,
+          "luminance_median": 145,
+          "luminance_p98": 218,
+          "dynamic_range": 186,
+          "saturation_mean": 59.25,
+          "detail_score": 2.29,
+          "noise_proxy": 1.37
+        },
+        "corrections": {
+          "white_balance_gains": [
+            0.98,
+            0.9854,
+            1.02
+          ],
+          "exposure_factor": 1.0,
+          "tonal_blend": 0.15,
+          "shadow_lift": 0.0,
+          "contrast_factor": 1.025,
+          "saturation_factor": 1.0,
+          "denoise_blend": 0.0,
+          "sharpen_percent": 70
+        }
+      }
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\site\\public\\images\\apoio\\circulacao-suites.webp",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\site\\.image-treatment-staging\\tratada-002.webp",
+      "width": 1280,
+      "height": 960,
+      "source_bytes": 53938,
+      "target_bytes": 67182,
+      "enhanced": true,
+      "enhancement": {
+        "mean_absolute_change": 3.4,
+        "analysis": {
+          "luminance_p02": 36,
+          "luminance_median": 162,
+          "luminance_p98": 217,
+          "dynamic_range": 181,
+          "saturation_mean": 109.55,
+          "detail_score": 2.9,
+          "noise_proxy": 1.65
+        },
+        "corrections": {
+          "white_balance_gains": [
+            0.98,
+            0.98,
+            1.02
+          ],
+          "exposure_factor": 1.0,
+          "tonal_blend": 0.15,
+          "shadow_lift": 0.0,
+          "contrast_factor": 1.025,
+          "saturation_factor": 0.985,
+          "denoise_blend": 0.0,
+          "sharpen_percent": 70
+        }
+      }
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\site\\public\\images\\apoio\\hall-entrada.webp",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\site\\.image-treatment-staging\\tratada-003.webp",
+      "width": 960,
+      "height": 1280,
+      "source_bytes": 75872,
+      "target_bytes": 90532,
+      "enhanced": true,
+      "enhancement": {
+        "mean_absolute_change": 4.56,
+        "analysis": {
+          "luminance_p02": 15,
+          "luminance_median": 114,
+          "luminance_p98": 226,
+          "dynamic_range": 211,
+          "saturation_mean": 159.87,
+          "detail_score": 3.31,
+          "noise_proxy": 1.74
+        },
+        "corrections": {
+          "white_balance_gains": [
+            0.98,
+            1.02,
+            1.02
+          ],
+          "exposure_factor": 1.0,
+          "tonal_blend": 0.15,
+          "shadow_lift": 0.08,
+          "contrast_factor": 1.01,
+          "saturation_factor": 0.97,
+          "denoise_blend": 0.0,
+          "sharpen_percent": 70
+        }
+      }
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\site\\public\\images\\banheiros\\banheiro-suite-principal.webp",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\site\\.image-treatment-staging\\tratada-004.webp",
+      "width": 960,
+      "height": 1280,
+      "source_bytes": 55144,
+      "target_bytes": 69438,
+      "enhanced": true,
+      "enhancement": {
+        "mean_absolute_change": 3.65,
+        "analysis": {
+          "luminance_p02": 33,
+          "luminance_median": 132,
+          "luminance_p98": 206,
+          "dynamic_range": 173,
+          "saturation_mean": 75.45,
+          "detail_score": 2.34,
+          "noise_proxy": 1.32
+        },
+        "corrections": {
+          "white_balance_gains": [
+            0.98,
+            0.98,
+            1.02
+          ],
+          "exposure_factor": 1.0,
+          "tonal_blend": 0.24,
+          "shadow_lift": 0.0,
+          "contrast_factor": 1.04,
+          "saturation_factor": 1.0,
+          "denoise_blend": 0.0,
+          "sharpen_percent": 70
+        }
+      }
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\site\\public\\images\\banheiros\\banheiro-suite.webp",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\site\\.image-treatment-staging\\tratada-005.webp",
+      "width": 960,
+      "height": 1280,
+      "source_bytes": 53968,
+      "target_bytes": 66838,
+      "enhanced": true,
+      "enhancement": {
+        "mean_absolute_change": 4.33,
+        "analysis": {
+          "luminance_p02": 41,
+          "luminance_median": 130,
+          "luminance_p98": 203,
+          "dynamic_range": 162,
+          "saturation_mean": 82.32,
+          "detail_score": 2.06,
+          "noise_proxy": 1.41
+        },
+        "corrections": {
+          "white_balance_gains": [
+            0.98,
+            0.98,
+            1.02
+          ],
+          "exposure_factor": 1.0,
+          "tonal_blend": 0.24,
+          "shadow_lift": 0.0,
+          "contrast_factor": 1.04,
+          "saturation_factor": 1.0,
+          "denoise_blend": 0.0,
+          "sharpen_percent": 70
+        }
+      }
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\site\\public\\images\\banheiros\\lavabo-onix-detalhe.webp",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\site\\.image-treatment-staging\\tratada-006.webp",
+      "width": 960,
+      "height": 1280,
+      "source_bytes": 62682,
+      "target_bytes": 71722,
+      "enhanced": true,
+      "enhancement": {
+        "mean_absolute_change": 3.83,
+        "analysis": {
+          "luminance_p02": 15,
+          "luminance_median": 135,
+          "luminance_p98": 219,
+          "dynamic_range": 204,
+          "saturation_mean": 143.38,
+          "detail_score": 2.23,
+          "noise_proxy": 1.4
+        },
+        "corrections": {
+          "white_balance_gains": [
+            0.98,
+            0.9958,
+            1.02
+          ],
+          "exposure_factor": 1.0,
+          "tonal_blend": 0.15,
+          "shadow_lift": 0.0,
+          "contrast_factor": 1.01,
+          "saturation_factor": 0.97,
+          "denoise_blend": 0.0,
+          "sharpen_percent": 70
+        }
+      }
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\site\\public\\images\\banheiros\\lavabo-onix.webp",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\site\\.image-treatment-staging\\tratada-007.webp",
+      "width": 960,
+      "height": 1280,
+      "source_bytes": 62526,
+      "target_bytes": 71224,
+      "enhanced": true,
+      "enhancement": {
+        "mean_absolute_change": 3.51,
+        "analysis": {
+          "luminance_p02": 12,
+          "luminance_median": 128,
+          "luminance_p98": 210,
+          "dynamic_range": 198,
+          "saturation_mean": 138.13,
+          "detail_score": 2.32,
+          "noise_proxy": 1.52
+        },
+        "corrections": {
+          "white_balance_gains": [
+            0.98,
+            1.0013,
+            1.02
+          ],
+          "exposure_factor": 1.0,
+          "tonal_blend": 0.15,
+          "shadow_lift": 0.0,
+          "contrast_factor": 1.01,
+          "saturation_factor": 0.97,
+          "denoise_blend": 0.0,
+          "sharpen_percent": 70
+        }
+      }
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\site\\public\\images\\cozinha\\churrasqueira-carvao.webp",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\site\\.image-treatment-staging\\tratada-008.webp",
+      "width": 1280,
+      "height": 960,
+      "source_bytes": 115436,
+      "target_bytes": 137400,
+      "enhanced": true,
+      "enhancement": {
+        "mean_absolute_change": 4.5,
+        "analysis": {
+          "luminance_p02": 27,
+          "luminance_median": 165,
+          "luminance_p98": 225,
+          "dynamic_range": 198,
+          "saturation_mean": 78.59,
+          "detail_score": 4.63,
+          "noise_proxy": 3.14
+        },
+        "corrections": {
+          "white_balance_gains": [
+            0.98,
+            0.9952,
+            1.02
+          ],
+          "exposure_factor": 1.0,
+          "tonal_blend": 0.15,
+          "shadow_lift": 0.0,
+          "contrast_factor": 1.025,
+          "saturation_factor": 1.0,
+          "denoise_blend": 0.0,
+          "sharpen_percent": 55
+        }
+      }
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\site\\public\\images\\cozinha\\cozinha-eletrodomesticos.webp",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\site\\.image-treatment-staging\\tratada-009.webp",
+      "width": 960,
+      "height": 1280,
+      "source_bytes": 72246,
+      "target_bytes": 85224,
+      "enhanced": true,
+      "enhancement": {
+        "mean_absolute_change": 3.99,
+        "analysis": {
+          "luminance_p02": 3,
+          "luminance_median": 138,
+          "luminance_p98": 207,
+          "dynamic_range": 204,
+          "saturation_mean": 92.07,
+          "detail_score": 3.0,
+          "noise_proxy": 1.91
+        },
+        "corrections": {
+          "white_balance_gains": [
+            0.98,
+            0.9856,
+            1.02
+          ],
+          "exposure_factor": 1.0,
+          "tonal_blend": 0.15,
+          "shadow_lift": 0.0,
+          "contrast_factor": 1.01,
+          "saturation_factor": 0.985,
+          "denoise_blend": 0.0,
+          "sharpen_percent": 70
+        }
+      }
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\site\\public\\images\\cozinha\\cozinha-planejada.webp",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\site\\.image-treatment-staging\\tratada-010.webp",
+      "width": 959,
+      "height": 1280,
+      "source_bytes": 91030,
+      "target_bytes": 107946,
+      "enhanced": true,
+      "enhancement": {
+        "mean_absolute_change": 5.0,
+        "analysis": {
+          "luminance_p02": 22,
+          "luminance_median": 148,
+          "luminance_p98": 225,
+          "dynamic_range": 203,
+          "saturation_mean": 101.06,
+          "detail_score": 4.23,
+          "noise_proxy": 2.95
+        },
+        "corrections": {
+          "white_balance_gains": [
+            0.98,
+            0.98,
+            1.02
+          ],
+          "exposure_factor": 1.0,
+          "tonal_blend": 0.15,
+          "shadow_lift": 0.0,
+          "contrast_factor": 1.025,
+          "saturation_factor": 0.985,
+          "denoise_blend": 0.0,
+          "sharpen_percent": 55
+        }
+      }
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\site\\public\\images\\cozinha\\varanda-gourmet-integrada.webp",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\site\\.image-treatment-staging\\tratada-011.webp",
+      "width": 1280,
+      "height": 960,
+      "source_bytes": 87208,
+      "target_bytes": 103194,
+      "enhanced": true,
+      "enhancement": {
+        "mean_absolute_change": 3.89,
+        "analysis": {
+          "luminance_p02": 14,
+          "luminance_median": 164,
+          "luminance_p98": 211,
+          "dynamic_range": 197,
+          "saturation_mean": 83.21,
+          "detail_score": 3.71,
+          "noise_proxy": 2.2
+        },
+        "corrections": {
+          "white_balance_gains": [
+            0.98,
+            1.0044,
+            1.02
+          ],
+          "exposure_factor": 1.0,
+          "tonal_blend": 0.15,
+          "shadow_lift": 0.0,
+          "contrast_factor": 1.025,
+          "saturation_factor": 1.0,
+          "denoise_blend": 0.0,
+          "sharpen_percent": 55
+        }
+      }
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\site\\public\\images\\social\\area-social-integrada.webp",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\site\\.image-treatment-staging\\tratada-012.webp",
+      "width": 1280,
+      "height": 960,
+      "source_bytes": 95410,
+      "target_bytes": 112204,
+      "enhanced": true,
+      "enhancement": {
+        "mean_absolute_change": 4.01,
+        "analysis": {
+          "luminance_p02": 14,
+          "luminance_median": 164,
+          "luminance_p98": 219,
+          "dynamic_range": 205,
+          "saturation_mean": 85.6,
+          "detail_score": 4.06,
+          "noise_proxy": 2.44
+        },
+        "corrections": {
+          "white_balance_gains": [
+            0.98,
+            1.0074,
+            1.02
+          ],
+          "exposure_factor": 1.0,
+          "tonal_blend": 0.15,
+          "shadow_lift": 0.0,
+          "contrast_factor": 1.025,
+          "saturation_factor": 0.985,
+          "denoise_blend": 0.0,
+          "sharpen_percent": 55
+        }
+      }
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\site\\public\\images\\social\\sala-integrada.webp",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\site\\.image-treatment-staging\\tratada-013.webp",
+      "width": 1280,
+      "height": 960,
+      "source_bytes": 84454,
+      "target_bytes": 103016,
+      "enhanced": true,
+      "enhancement": {
+        "mean_absolute_change": 4.63,
+        "analysis": {
+          "luminance_p02": 28,
+          "luminance_median": 120,
+          "luminance_p98": 216,
+          "dynamic_range": 188,
+          "saturation_mean": 115.45,
+          "detail_score": 3.46,
+          "noise_proxy": 2.23
+        },
+        "corrections": {
+          "white_balance_gains": [
+            0.98,
+            1.02,
+            1.02
+          ],
+          "exposure_factor": 1.0,
+          "tonal_blend": 0.15,
+          "shadow_lift": 0.0,
+          "contrast_factor": 1.025,
+          "saturation_factor": 0.97,
+          "denoise_blend": 0.0,
+          "sharpen_percent": 70
+        }
+      }
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\site\\public\\images\\social\\sala-varanda.webp",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\site\\.image-treatment-staging\\tratada-014.webp",
+      "width": 1280,
+      "height": 960,
+      "source_bytes": 80338,
+      "target_bytes": 102426,
+      "enhanced": true,
+      "enhancement": {
+        "mean_absolute_change": 4.38,
+        "analysis": {
+          "luminance_p02": 40,
+          "luminance_median": 120,
+          "luminance_p98": 207,
+          "dynamic_range": 167,
+          "saturation_mean": 101.56,
+          "detail_score": 3.33,
+          "noise_proxy": 2.19
+        },
+        "corrections": {
+          "white_balance_gains": [
+            0.98,
+            1.0072,
+            1.02
+          ],
+          "exposure_factor": 1.0,
+          "tonal_blend": 0.24,
+          "shadow_lift": 0.0,
+          "contrast_factor": 1.04,
+          "saturation_factor": 0.985,
+          "denoise_blend": 0.0,
+          "sharpen_percent": 70
+        }
+      }
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\site\\public\\images\\suites\\suite-dois.webp",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\site\\.image-treatment-staging\\tratada-015.webp",
+      "width": 1280,
+      "height": 960,
+      "source_bytes": 62990,
+      "target_bytes": 79544,
+      "enhanced": true,
+      "enhancement": {
+        "mean_absolute_change": 4.94,
+        "analysis": {
+          "luminance_p02": 39,
+          "luminance_median": 146,
+          "luminance_p98": 228,
+          "dynamic_range": 189,
+          "saturation_mean": 50.65,
+          "detail_score": 2.81,
+          "noise_proxy": 1.54
+        },
+        "corrections": {
+          "white_balance_gains": [
+            0.98,
+            0.98,
+            1.02
+          ],
+          "exposure_factor": 1.0,
+          "tonal_blend": 0.15,
+          "shadow_lift": 0.0,
+          "contrast_factor": 1.025,
+          "saturation_factor": 1.01,
+          "denoise_blend": 0.0,
+          "sharpen_percent": 70
+        }
+      }
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\site\\public\\images\\suites\\suite-principal.webp",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\site\\.image-treatment-staging\\tratada-016.webp",
+      "width": 960,
+      "height": 1280,
+      "source_bytes": 47070,
+      "target_bytes": 55788,
+      "enhanced": true,
+      "enhancement": {
+        "mean_absolute_change": 4.22,
+        "analysis": {
+          "luminance_p02": 40,
+          "luminance_median": 152,
+          "luminance_p98": 221,
+          "dynamic_range": 181,
+          "saturation_mean": 82.8,
+          "detail_score": 1.85,
+          "noise_proxy": 1.12
+        },
+        "corrections": {
+          "white_balance_gains": [
+            0.98,
+            0.98,
+            1.02
+          ],
+          "exposure_factor": 1.0,
+          "tonal_blend": 0.15,
+          "shadow_lift": 0.0,
+          "contrast_factor": 1.025,
+          "saturation_factor": 1.0,
+          "denoise_blend": 0.0,
+          "sharpen_percent": 70
+        }
+      }
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\site\\public\\images\\suites\\suite-tres.webp",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\site\\.image-treatment-staging\\tratada-017.webp",
+      "width": 1280,
+      "height": 960,
+      "source_bytes": 59078,
+      "target_bytes": 75396,
+      "enhanced": true,
+      "enhancement": {
+        "mean_absolute_change": 4.67,
+        "analysis": {
+          "luminance_p02": 40,
+          "luminance_median": 137,
+          "luminance_p98": 221,
+          "dynamic_range": 181,
+          "saturation_mean": 59.7,
+          "detail_score": 2.25,
+          "noise_proxy": 1.31
+        },
+        "corrections": {
+          "white_balance_gains": [
+            0.98,
+            1.02,
+            1.02
+          ],
+          "exposure_factor": 1.0,
+          "tonal_blend": 0.15,
+          "shadow_lift": 0.0,
+          "contrast_factor": 1.025,
+          "saturation_factor": 1.0,
+          "denoise_blend": 0.0,
+          "sharpen_percent": 70
+        }
+      }
+    }
+  ]
+}

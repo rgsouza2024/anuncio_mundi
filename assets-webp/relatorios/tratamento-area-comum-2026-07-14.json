@@ -1,0 +1,1134 @@
+{
+  "count": 32,
+  "lossless": false,
+  "quality": 82,
+  "enhance_photo": true,
+  "enhancement_profile": "adaptive-faithful-v2",
+  "deleted_originals": true,
+  "source_bytes": 8791140,
+  "target_bytes": 7594408,
+  "saved_bytes": 1196732,
+  "saved_percent": 13.61,
+  "files": [
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\Área Comum\\PHOTO-2026-07-14-13-31-16 (1).jpg",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\assets-webp\\area-comum\\area-comum-001.webp",
+      "width": 1600,
+      "height": 1200,
+      "source_bytes": 251281,
+      "target_bytes": 208672,
+      "enhanced": true,
+      "enhancement": {
+        "mean_absolute_change": 4.28,
+        "analysis": {
+          "luminance_p02": 24,
+          "luminance_median": 147,
+          "luminance_p98": 237,
+          "dynamic_range": 213,
+          "saturation_mean": 72.97,
+          "detail_score": 5.04,
+          "noise_proxy": 3.22
+        },
+        "corrections": {
+          "white_balance_gains": [
+            0.98,
+            0.9887,
+            1.02
+          ],
+          "exposure_factor": 1.0,
+          "tonal_blend": 0.15,
+          "shadow_lift": 0.0,
+          "contrast_factor": 1.01,
+          "saturation_factor": 1.0,
+          "denoise_blend": 0.0,
+          "sharpen_percent": 55
+        }
+      }
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\Área Comum\\PHOTO-2026-07-14-13-31-16 (10).jpg",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\assets-webp\\area-comum\\area-comum-002.webp",
+      "width": 1600,
+      "height": 1200,
+      "source_bytes": 263162,
+      "target_bytes": 242374,
+      "enhanced": true,
+      "enhancement": {
+        "mean_absolute_change": 5.01,
+        "analysis": {
+          "luminance_p02": 36,
+          "luminance_median": 140,
+          "luminance_p98": 229,
+          "dynamic_range": 193,
+          "saturation_mean": 63.47,
+          "detail_score": 4.65,
+          "noise_proxy": 3.38
+        },
+        "corrections": {
+          "white_balance_gains": [
+            0.98,
+            0.98,
+            1.02
+          ],
+          "exposure_factor": 1.0,
+          "tonal_blend": 0.15,
+          "shadow_lift": 0.0,
+          "contrast_factor": 1.025,
+          "saturation_factor": 1.0,
+          "denoise_blend": 0.0,
+          "sharpen_percent": 55
+        }
+      }
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\Área Comum\\PHOTO-2026-07-14-13-31-16 (11).jpg",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\assets-webp\\area-comum\\area-comum-003.webp",
+      "width": 1600,
+      "height": 1200,
+      "source_bytes": 261137,
+      "target_bytes": 237168,
+      "enhanced": true,
+      "enhancement": {
+        "mean_absolute_change": 4.91,
+        "analysis": {
+          "luminance_p02": 36,
+          "luminance_median": 140,
+          "luminance_p98": 229,
+          "dynamic_range": 193,
+          "saturation_mean": 62.36,
+          "detail_score": 4.62,
+          "noise_proxy": 3.37
+        },
+        "corrections": {
+          "white_balance_gains": [
+            0.98,
+            0.98,
+            1.02
+          ],
+          "exposure_factor": 1.0,
+          "tonal_blend": 0.15,
+          "shadow_lift": 0.0,
+          "contrast_factor": 1.025,
+          "saturation_factor": 1.0,
+          "denoise_blend": 0.0,
+          "sharpen_percent": 55
+        }
+      }
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\Área Comum\\PHOTO-2026-07-14-13-31-16 (12).jpg",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\assets-webp\\area-comum\\area-comum-004.webp",
+      "width": 1600,
+      "height": 1200,
+      "source_bytes": 300096,
+      "target_bytes": 254536,
+      "enhanced": true,
+      "enhancement": {
+        "mean_absolute_change": 4.95,
+        "analysis": {
+          "luminance_p02": 16,
+          "luminance_median": 121,
+          "luminance_p98": 230,
+          "dynamic_range": 214,
+          "saturation_mean": 110.83,
+          "detail_score": 4.7,
+          "noise_proxy": 3.22
+        },
+        "corrections": {
+          "white_balance_gains": [
+            0.98,
+            0.98,
+            1.02
+          ],
+          "exposure_factor": 1.0,
+          "tonal_blend": 0.15,
+          "shadow_lift": 0.0,
+          "contrast_factor": 1.01,
+          "saturation_factor": 0.97,
+          "denoise_blend": 0.0,
+          "sharpen_percent": 55
+        }
+      }
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\Área Comum\\PHOTO-2026-07-14-13-31-16 (13).jpg",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\assets-webp\\area-comum\\area-comum-005.webp",
+      "width": 1600,
+      "height": 1200,
+      "source_bytes": 295919,
+      "target_bytes": 244732,
+      "enhanced": true,
+      "enhancement": {
+        "mean_absolute_change": 4.63,
+        "analysis": {
+          "luminance_p02": 12,
+          "luminance_median": 125,
+          "luminance_p98": 224,
+          "dynamic_range": 212,
+          "saturation_mean": 111.76,
+          "detail_score": 4.83,
+          "noise_proxy": 3.22
+        },
+        "corrections": {
+          "white_balance_gains": [
+            0.98,
+            0.98,
+            1.02
+          ],
+          "exposure_factor": 1.0,
+          "tonal_blend": 0.15,
+          "shadow_lift": 0.0,
+          "contrast_factor": 1.01,
+          "saturation_factor": 0.97,
+          "denoise_blend": 0.0,
+          "sharpen_percent": 55
+        }
+      }
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\Área Comum\\PHOTO-2026-07-14-13-31-16 (14).jpg",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\assets-webp\\area-comum\\area-comum-006.webp",
+      "width": 1600,
+      "height": 1200,
+      "source_bytes": 215616,
+      "target_bytes": 179768,
+      "enhanced": true,
+      "enhancement": {
+        "mean_absolute_change": 4.24,
+        "analysis": {
+          "luminance_p02": 28,
+          "luminance_median": 138,
+          "luminance_p98": 229,
+          "dynamic_range": 201,
+          "saturation_mean": 64.88,
+          "detail_score": 3.72,
+          "noise_proxy": 2.55
+        },
+        "corrections": {
+          "white_balance_gains": [
+            0.98,
+            0.9814,
+            1.02
+          ],
+          "exposure_factor": 1.0,
+          "tonal_blend": 0.15,
+          "shadow_lift": 0.0,
+          "contrast_factor": 1.025,
+          "saturation_factor": 1.0,
+          "denoise_blend": 0.0,
+          "sharpen_percent": 55
+        }
+      }
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\Área Comum\\PHOTO-2026-07-14-13-31-16 (15).jpg",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\assets-webp\\area-comum\\area-comum-007.webp",
+      "width": 1600,
+      "height": 1200,
+      "source_bytes": 315112,
+      "target_bytes": 264698,
+      "enhanced": true,
+      "enhancement": {
+        "mean_absolute_change": 4.62,
+        "analysis": {
+          "luminance_p02": 10,
+          "luminance_median": 104,
+          "luminance_p98": 231,
+          "dynamic_range": 221,
+          "saturation_mean": 108.62,
+          "detail_score": 5.88,
+          "noise_proxy": 3.97
+        },
+        "corrections": {
+          "white_balance_gains": [
+            0.98,
+            0.98,
+            1.02
+          ],
+          "exposure_factor": 1.0,
+          "tonal_blend": 0.15,
+          "shadow_lift": 0.92,
+          "contrast_factor": 1.01,
+          "saturation_factor": 0.985,
+          "denoise_blend": 0.0,
+          "sharpen_percent": 55
+        }
+      }
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\Área Comum\\PHOTO-2026-07-14-13-31-16 (16).jpg",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\assets-webp\\area-comum\\area-comum-008.webp",
+      "width": 1600,
+      "height": 1200,
+      "source_bytes": 360213,
+      "target_bytes": 345410,
+      "enhanced": true,
+      "enhancement": {
+        "mean_absolute_change": 4.58,
+        "analysis": {
+          "luminance_p02": 2,
+          "luminance_median": 124,
+          "luminance_p98": 234,
+          "dynamic_range": 232,
+          "saturation_mean": 98.46,
+          "detail_score": 6.77,
+          "noise_proxy": 4.25
+        },
+        "corrections": {
+          "white_balance_gains": [
+            0.98,
+            1.0048,
+            1.02
+          ],
+          "exposure_factor": 1.0,
+          "tonal_blend": 0.15,
+          "shadow_lift": 0.0,
+          "contrast_factor": 1.01,
+          "saturation_factor": 0.985,
+          "denoise_blend": 0.0,
+          "sharpen_percent": 55
+        }
+      }
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\Área Comum\\PHOTO-2026-07-14-13-31-16 (17).jpg",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\assets-webp\\area-comum\\area-comum-009.webp",
+      "width": 1600,
+      "height": 1200,
+      "source_bytes": 293771,
+      "target_bytes": 261362,
+      "enhanced": true,
+      "enhancement": {
+        "mean_absolute_change": 4.21,
+        "analysis": {
+          "luminance_p02": 11,
+          "luminance_median": 134,
+          "luminance_p98": 233,
+          "dynamic_range": 222,
+          "saturation_mean": 100.25,
+          "detail_score": 5.66,
+          "noise_proxy": 3.59
+        },
+        "corrections": {
+          "white_balance_gains": [
+            0.98,
+            0.9987,
+            1.02
+          ],
+          "exposure_factor": 1.0,
+          "tonal_blend": 0.15,
+          "shadow_lift": 0.0,
+          "contrast_factor": 1.01,
+          "saturation_factor": 0.985,
+          "denoise_blend": 0.0,
+          "sharpen_percent": 55
+        }
+      }
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\Área Comum\\PHOTO-2026-07-14-13-31-16 (18).jpg",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\assets-webp\\area-comum\\area-comum-010.webp",
+      "width": 1200,
+      "height": 1600,
+      "source_bytes": 292276,
+      "target_bytes": 252894,
+      "enhanced": true,
+      "enhancement": {
+        "mean_absolute_change": 3.84,
+        "analysis": {
+          "luminance_p02": 13,
+          "luminance_median": 112,
+          "luminance_p98": 234,
+          "dynamic_range": 221,
+          "saturation_mean": 137.23,
+          "detail_score": 5.9,
+          "noise_proxy": 3.71
+        },
+        "corrections": {
+          "white_balance_gains": [
+            1.0147,
+            0.9976,
+            0.988
+          ],
+          "exposure_factor": 1.0,
+          "tonal_blend": 0.15,
+          "shadow_lift": 0.25,
+          "contrast_factor": 1.01,
+          "saturation_factor": 0.97,
+          "denoise_blend": 0.0,
+          "sharpen_percent": 55
+        }
+      }
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\Área Comum\\PHOTO-2026-07-14-13-31-16 (19).jpg",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\assets-webp\\area-comum\\area-comum-011.webp",
+      "width": 1600,
+      "height": 1200,
+      "source_bytes": 286810,
+      "target_bytes": 241260,
+      "enhanced": true,
+      "enhancement": {
+        "mean_absolute_change": 4.25,
+        "analysis": {
+          "luminance_p02": 17,
+          "luminance_median": 124,
+          "luminance_p98": 235,
+          "dynamic_range": 218,
+          "saturation_mean": 126.17,
+          "detail_score": 5.65,
+          "noise_proxy": 3.59
+        },
+        "corrections": {
+          "white_balance_gains": [
+            0.98,
+            1.0104,
+            1.02
+          ],
+          "exposure_factor": 1.0,
+          "tonal_blend": 0.15,
+          "shadow_lift": 0.0,
+          "contrast_factor": 1.01,
+          "saturation_factor": 0.97,
+          "denoise_blend": 0.0,
+          "sharpen_percent": 55
+        }
+      }
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\Área Comum\\PHOTO-2026-07-14-13-31-16 (2).jpg",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\assets-webp\\area-comum\\area-comum-012.webp",
+      "width": 1600,
+      "height": 1200,
+      "source_bytes": 192011,
+      "target_bytes": 144194,
+      "enhanced": true,
+      "enhancement": {
+        "mean_absolute_change": 3.95,
+        "analysis": {
+          "luminance_p02": 34,
+          "luminance_median": 158,
+          "luminance_p98": 222,
+          "dynamic_range": 188,
+          "saturation_mean": 65.65,
+          "detail_score": 3.69,
+          "noise_proxy": 2.2
+        },
+        "corrections": {
+          "white_balance_gains": [
+            0.98,
+            1.0013,
+            1.02
+          ],
+          "exposure_factor": 1.0,
+          "tonal_blend": 0.15,
+          "shadow_lift": 0.0,
+          "contrast_factor": 1.025,
+          "saturation_factor": 1.0,
+          "denoise_blend": 0.0,
+          "sharpen_percent": 55
+        }
+      }
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\Área Comum\\PHOTO-2026-07-14-13-31-16 (3).jpg",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\assets-webp\\area-comum\\area-comum-013.webp",
+      "width": 1600,
+      "height": 1200,
+      "source_bytes": 281784,
+      "target_bytes": 248082,
+      "enhanced": true,
+      "enhancement": {
+        "mean_absolute_change": 4.29,
+        "analysis": {
+          "luminance_p02": 30,
+          "luminance_median": 167,
+          "luminance_p98": 235,
+          "dynamic_range": 205,
+          "saturation_mean": 77.96,
+          "detail_score": 5.59,
+          "noise_proxy": 3.71
+        },
+        "corrections": {
+          "white_balance_gains": [
+            0.98,
+            0.9982,
+            1.02
+          ],
+          "exposure_factor": 1.0,
+          "tonal_blend": 0.15,
+          "shadow_lift": 0.0,
+          "contrast_factor": 1.025,
+          "saturation_factor": 1.0,
+          "denoise_blend": 0.0,
+          "sharpen_percent": 55
+        }
+      }
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\Área Comum\\PHOTO-2026-07-14-13-31-16 (4).jpg",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\assets-webp\\area-comum\\area-comum-014.webp",
+      "width": 1600,
+      "height": 1200,
+      "source_bytes": 199409,
+      "target_bytes": 156434,
+      "enhanced": true,
+      "enhancement": {
+        "mean_absolute_change": 3.33,
+        "analysis": {
+          "luminance_p02": 10,
+          "luminance_median": 130,
+          "luminance_p98": 223,
+          "dynamic_range": 213,
+          "saturation_mean": 73.45,
+          "detail_score": 3.52,
+          "noise_proxy": 2.19
+        },
+        "corrections": {
+          "white_balance_gains": [
+            0.98,
+            0.9979,
+            1.02
+          ],
+          "exposure_factor": 1.0,
+          "tonal_blend": 0.15,
+          "shadow_lift": 0.0,
+          "contrast_factor": 1.01,
+          "saturation_factor": 1.0,
+          "denoise_blend": 0.0,
+          "sharpen_percent": 55
+        }
+      }
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\Área Comum\\PHOTO-2026-07-14-13-31-16 (5).jpg",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\assets-webp\\area-comum\\area-comum-015.webp",
+      "width": 1200,
+      "height": 1600,
+      "source_bytes": 234801,
+      "target_bytes": 194214,
+      "enhanced": true,
+      "enhancement": {
+        "mean_absolute_change": 3.89,
+        "analysis": {
+          "luminance_p02": 31,
+          "luminance_median": 165,
+          "luminance_p98": 237,
+          "dynamic_range": 206,
+          "saturation_mean": 56.91,
+          "detail_score": 4.52,
+          "noise_proxy": 2.84
+        },
+        "corrections": {
+          "white_balance_gains": [
+            0.98,
+            0.9936,
+            1.02
+          ],
+          "exposure_factor": 1.0,
+          "tonal_blend": 0.15,
+          "shadow_lift": 0.0,
+          "contrast_factor": 1.01,
+          "saturation_factor": 1.0,
+          "denoise_blend": 0.0,
+          "sharpen_percent": 55
+        }
+      }
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\Área Comum\\PHOTO-2026-07-14-13-31-16 (6).jpg",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\assets-webp\\area-comum\\area-comum-016.webp",
+      "width": 1600,
+      "height": 1200,
+      "source_bytes": 206522,
+      "target_bytes": 169002,
+      "enhanced": true,
+      "enhancement": {
+        "mean_absolute_change": 3.84,
+        "analysis": {
+          "luminance_p02": 12,
+          "luminance_median": 121,
+          "luminance_p98": 214,
+          "dynamic_range": 202,
+          "saturation_mean": 80.31,
+          "detail_score": 3.68,
+          "noise_proxy": 2.08
+        },
+        "corrections": {
+          "white_balance_gains": [
+            0.98,
+            0.9996,
+            1.02
+          ],
+          "exposure_factor": 1.0,
+          "tonal_blend": 0.15,
+          "shadow_lift": 0.0,
+          "contrast_factor": 1.025,
+          "saturation_factor": 1.0,
+          "denoise_blend": 0.0,
+          "sharpen_percent": 55
+        }
+      }
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\Área Comum\\PHOTO-2026-07-14-13-31-16 (7).jpg",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\assets-webp\\area-comum\\area-comum-017.webp",
+      "width": 1600,
+      "height": 1200,
+      "source_bytes": 202389,
+      "target_bytes": 169856,
+      "enhanced": true,
+      "enhancement": {
+        "mean_absolute_change": 4.27,
+        "analysis": {
+          "luminance_p02": 18,
+          "luminance_median": 129,
+          "luminance_p98": 216,
+          "dynamic_range": 198,
+          "saturation_mean": 89.43,
+          "detail_score": 3.45,
+          "noise_proxy": 2.15
+        },
+        "corrections": {
+          "white_balance_gains": [
+            0.98,
+            0.9946,
+            1.02
+          ],
+          "exposure_factor": 1.0,
+          "tonal_blend": 0.15,
+          "shadow_lift": 0.0,
+          "contrast_factor": 1.01,
+          "saturation_factor": 0.985,
+          "denoise_blend": 0.0,
+          "sharpen_percent": 70
+        }
+      }
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\Área Comum\\PHOTO-2026-07-14-13-31-16 (8).jpg",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\assets-webp\\area-comum\\area-comum-018.webp",
+      "width": 1200,
+      "height": 1600,
+      "source_bytes": 250355,
+      "target_bytes": 217234,
+      "enhanced": true,
+      "enhancement": {
+        "mean_absolute_change": 4.53,
+        "analysis": {
+          "luminance_p02": 28,
+          "luminance_median": 161,
+          "luminance_p98": 221,
+          "dynamic_range": 193,
+          "saturation_mean": 67.81,
+          "detail_score": 4.89,
+          "noise_proxy": 3.04
+        },
+        "corrections": {
+          "white_balance_gains": [
+            0.98,
+            0.9941,
+            1.02
+          ],
+          "exposure_factor": 1.0,
+          "tonal_blend": 0.15,
+          "shadow_lift": 0.0,
+          "contrast_factor": 1.025,
+          "saturation_factor": 1.0,
+          "denoise_blend": 0.0,
+          "sharpen_percent": 55
+        }
+      }
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\Área Comum\\PHOTO-2026-07-14-13-31-16 (9).jpg",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\assets-webp\\area-comum\\area-comum-019.webp",
+      "width": 1600,
+      "height": 1200,
+      "source_bytes": 213521,
+      "target_bytes": 171218,
+      "enhanced": true,
+      "enhancement": {
+        "mean_absolute_change": 4.36,
+        "analysis": {
+          "luminance_p02": 38,
+          "luminance_median": 161,
+          "luminance_p98": 224,
+          "dynamic_range": 186,
+          "saturation_mean": 69.37,
+          "detail_score": 4.15,
+          "noise_proxy": 2.47
+        },
+        "corrections": {
+          "white_balance_gains": [
+            0.98,
+            0.9959,
+            1.02
+          ],
+          "exposure_factor": 1.0,
+          "tonal_blend": 0.15,
+          "shadow_lift": 0.0,
+          "contrast_factor": 1.025,
+          "saturation_factor": 1.0,
+          "denoise_blend": 0.0,
+          "sharpen_percent": 55
+        }
+      }
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\Área Comum\\PHOTO-2026-07-14-13-31-16.jpg",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\assets-webp\\area-comum\\area-comum-020.webp",
+      "width": 1600,
+      "height": 1200,
+      "source_bytes": 228432,
+      "target_bytes": 193718,
+      "enhanced": true,
+      "enhancement": {
+        "mean_absolute_change": 3.5,
+        "analysis": {
+          "luminance_p02": 9,
+          "luminance_median": 138,
+          "luminance_p98": 214,
+          "dynamic_range": 205,
+          "saturation_mean": 74.4,
+          "detail_score": 4.18,
+          "noise_proxy": 2.73
+        },
+        "corrections": {
+          "white_balance_gains": [
+            0.98,
+            1.0031,
+            1.02
+          ],
+          "exposure_factor": 1.0,
+          "tonal_blend": 0.15,
+          "shadow_lift": 0.0,
+          "contrast_factor": 1.01,
+          "saturation_factor": 1.0,
+          "denoise_blend": 0.0,
+          "sharpen_percent": 55
+        }
+      }
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\Área Comum\\PHOTO-2026-07-14-13-31-17 (1).jpg",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\assets-webp\\area-comum\\area-comum-021.webp",
+      "width": 1200,
+      "height": 1600,
+      "source_bytes": 272009,
+      "target_bytes": 244988,
+      "enhanced": true,
+      "enhancement": {
+        "mean_absolute_change": 4.08,
+        "analysis": {
+          "luminance_p02": 13,
+          "luminance_median": 119,
+          "luminance_p98": 228,
+          "dynamic_range": 215,
+          "saturation_mean": 126.13,
+          "detail_score": 4.16,
+          "noise_proxy": 2.84
+        },
+        "corrections": {
+          "white_balance_gains": [
+            0.98,
+            1.0021,
+            1.02
+          ],
+          "exposure_factor": 1.0,
+          "tonal_blend": 0.15,
+          "shadow_lift": 0.0,
+          "contrast_factor": 1.01,
+          "saturation_factor": 0.97,
+          "denoise_blend": 0.0,
+          "sharpen_percent": 55
+        }
+      }
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\Área Comum\\PHOTO-2026-07-14-13-31-17 (10).jpg",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\assets-webp\\area-comum\\area-comum-022.webp",
+      "width": 1600,
+      "height": 1200,
+      "source_bytes": 226379,
+      "target_bytes": 174416,
+      "enhanced": true,
+      "enhancement": {
+        "mean_absolute_change": 3.75,
+        "analysis": {
+          "luminance_p02": 1,
+          "luminance_median": 127,
+          "luminance_p98": 243,
+          "dynamic_range": 242,
+          "saturation_mean": 68.89,
+          "detail_score": 5.38,
+          "noise_proxy": 2.99
+        },
+        "corrections": {
+          "white_balance_gains": [
+            0.98,
+            0.98,
+            1.02
+          ],
+          "exposure_factor": 1.0,
+          "tonal_blend": 0.15,
+          "shadow_lift": 0.0,
+          "contrast_factor": 1.01,
+          "saturation_factor": 1.0,
+          "denoise_blend": 0.0,
+          "sharpen_percent": 55
+        }
+      }
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\Área Comum\\PHOTO-2026-07-14-13-31-17 (11).jpg",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\assets-webp\\area-comum\\area-comum-023.webp",
+      "width": 1600,
+      "height": 1200,
+      "source_bytes": 422529,
+      "target_bytes": 404002,
+      "enhanced": true,
+      "enhancement": {
+        "mean_absolute_change": 5.28,
+        "analysis": {
+          "luminance_p02": 35,
+          "luminance_median": 127,
+          "luminance_p98": 229,
+          "dynamic_range": 194,
+          "saturation_mean": 89.94,
+          "detail_score": 8.65,
+          "noise_proxy": 6.3
+        },
+        "corrections": {
+          "white_balance_gains": [
+            1.02,
+            0.98,
+            0.98
+          ],
+          "exposure_factor": 1.0,
+          "tonal_blend": 0.15,
+          "shadow_lift": 0.0,
+          "contrast_factor": 1.025,
+          "saturation_factor": 0.985,
+          "denoise_blend": 0.0,
+          "sharpen_percent": 40
+        }
+      }
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\Área Comum\\PHOTO-2026-07-14-13-31-17 (2).jpg",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\assets-webp\\area-comum\\area-comum-024.webp",
+      "width": 1200,
+      "height": 1600,
+      "source_bytes": 292354,
+      "target_bytes": 252708,
+      "enhanced": true,
+      "enhancement": {
+        "mean_absolute_change": 4.35,
+        "analysis": {
+          "luminance_p02": 12,
+          "luminance_median": 111,
+          "luminance_p98": 232,
+          "dynamic_range": 220,
+          "saturation_mean": 158.98,
+          "detail_score": 5.01,
+          "noise_proxy": 3.46
+        },
+        "corrections": {
+          "white_balance_gains": [
+            0.98,
+            0.9976,
+            1.02
+          ],
+          "exposure_factor": 1.0,
+          "tonal_blend": 0.15,
+          "shadow_lift": 0.33,
+          "contrast_factor": 1.01,
+          "saturation_factor": 0.97,
+          "denoise_blend": 0.0,
+          "sharpen_percent": 55
+        }
+      }
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\Área Comum\\PHOTO-2026-07-14-13-31-17 (3).jpg",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\assets-webp\\area-comum\\area-comum-025.webp",
+      "width": 1600,
+      "height": 1200,
+      "source_bytes": 294381,
+      "target_bytes": 231514,
+      "enhanced": true,
+      "enhancement": {
+        "mean_absolute_change": 3.85,
+        "analysis": {
+          "luminance_p02": 4,
+          "luminance_median": 138,
+          "luminance_p98": 240,
+          "dynamic_range": 236,
+          "saturation_mean": 39.66,
+          "detail_score": 7.13,
+          "noise_proxy": 3.84
+        },
+        "corrections": {
+          "white_balance_gains": [
+            0.98,
+            0.9892,
+            1.02
+          ],
+          "exposure_factor": 1.0,
+          "tonal_blend": 0.15,
+          "shadow_lift": 0.0,
+          "contrast_factor": 1.01,
+          "saturation_factor": 1.01,
+          "denoise_blend": 0.0,
+          "sharpen_percent": 40
+        }
+      }
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\Área Comum\\PHOTO-2026-07-14-13-31-17 (4).jpg",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\assets-webp\\area-comum\\area-comum-026.webp",
+      "width": 1600,
+      "height": 1200,
+      "source_bytes": 338492,
+      "target_bytes": 320344,
+      "enhanced": true,
+      "enhancement": {
+        "mean_absolute_change": 4.57,
+        "analysis": {
+          "luminance_p02": 20,
+          "luminance_median": 154,
+          "luminance_p98": 232,
+          "dynamic_range": 212,
+          "saturation_mean": 120.96,
+          "detail_score": 5.49,
+          "noise_proxy": 3.92
+        },
+        "corrections": {
+          "white_balance_gains": [
+            0.98,
+            0.985,
+            1.02
+          ],
+          "exposure_factor": 1.0,
+          "tonal_blend": 0.15,
+          "shadow_lift": 0.0,
+          "contrast_factor": 1.025,
+          "saturation_factor": 0.97,
+          "denoise_blend": 0.0,
+          "sharpen_percent": 55
+        }
+      }
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\Área Comum\\PHOTO-2026-07-14-13-31-17 (5).jpg",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\assets-webp\\area-comum\\area-comum-027.webp",
+      "width": 1600,
+      "height": 1200,
+      "source_bytes": 232440,
+      "target_bytes": 180648,
+      "enhanced": true,
+      "enhancement": {
+        "mean_absolute_change": 3.67,
+        "analysis": {
+          "luminance_p02": 1,
+          "luminance_median": 142,
+          "luminance_p98": 239,
+          "dynamic_range": 238,
+          "saturation_mean": 67.85,
+          "detail_score": 5.61,
+          "noise_proxy": 3.16
+        },
+        "corrections": {
+          "white_balance_gains": [
+            0.98,
+            0.98,
+            1.02
+          ],
+          "exposure_factor": 1.0,
+          "tonal_blend": 0.15,
+          "shadow_lift": 0.0,
+          "contrast_factor": 0.99,
+          "saturation_factor": 1.0,
+          "denoise_blend": 0.0,
+          "sharpen_percent": 55
+        }
+      }
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\Área Comum\\PHOTO-2026-07-14-13-31-17 (6).jpg",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\assets-webp\\area-comum\\area-comum-028.webp",
+      "width": 1600,
+      "height": 1200,
+      "source_bytes": 320403,
+      "target_bytes": 286220,
+      "enhanced": true,
+      "enhancement": {
+        "mean_absolute_change": 4.85,
+        "analysis": {
+          "luminance_p02": 21,
+          "luminance_median": 123,
+          "luminance_p98": 231,
+          "dynamic_range": 210,
+          "saturation_mean": 139.73,
+          "detail_score": 5.76,
+          "noise_proxy": 4.01
+        },
+        "corrections": {
+          "white_balance_gains": [
+            0.98,
+            0.996,
+            1.02
+          ],
+          "exposure_factor": 1.0,
+          "tonal_blend": 0.15,
+          "shadow_lift": 0.0,
+          "contrast_factor": 1.025,
+          "saturation_factor": 0.97,
+          "denoise_blend": 0.0,
+          "sharpen_percent": 55
+        }
+      }
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\Área Comum\\PHOTO-2026-07-14-13-31-17 (7).jpg",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\assets-webp\\area-comum\\area-comum-029.webp",
+      "width": 1600,
+      "height": 1200,
+      "source_bytes": 219366,
+      "target_bytes": 167130,
+      "enhanced": true,
+      "enhancement": {
+        "mean_absolute_change": 2.84,
+        "analysis": {
+          "luminance_p02": 1,
+          "luminance_median": 97,
+          "luminance_p98": 230,
+          "dynamic_range": 229,
+          "saturation_mean": 53.77,
+          "detail_score": 4.86,
+          "noise_proxy": 2.69
+        },
+        "corrections": {
+          "white_balance_gains": [
+            0.98,
+            0.98,
+            1.02
+          ],
+          "exposure_factor": 1.016,
+          "tonal_blend": 0.15,
+          "shadow_lift": 1.5,
+          "contrast_factor": 0.99,
+          "saturation_factor": 1.01,
+          "denoise_blend": 0.0,
+          "sharpen_percent": 55
+        }
+      }
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\Área Comum\\PHOTO-2026-07-14-13-31-17 (8).jpg",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\assets-webp\\area-comum\\area-comum-030.webp",
+      "width": 1600,
+      "height": 1200,
+      "source_bytes": 489530,
+      "target_bytes": 473870,
+      "enhanced": true,
+      "enhancement": {
+        "mean_absolute_change": 4.87,
+        "analysis": {
+          "luminance_p02": 13,
+          "luminance_median": 128,
+          "luminance_p98": 234,
+          "dynamic_range": 221,
+          "saturation_mean": 103.21,
+          "detail_score": 9.7,
+          "noise_proxy": 7.84
+        },
+        "corrections": {
+          "white_balance_gains": [
+            1.02,
+            0.98,
+            0.98
+          ],
+          "exposure_factor": 1.0,
+          "tonal_blend": 0.15,
+          "shadow_lift": 0.0,
+          "contrast_factor": 1.01,
+          "saturation_factor": 0.985,
+          "denoise_blend": 0.08,
+          "sharpen_percent": 40
+        }
+      }
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\Área Comum\\PHOTO-2026-07-14-13-31-17 (9).jpg",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\assets-webp\\area-comum\\area-comum-031.webp",
+      "width": 1600,
+      "height": 1200,
+      "source_bytes": 207374,
+      "target_bytes": 157962,
+      "enhanced": true,
+      "enhancement": {
+        "mean_absolute_change": 4.04,
+        "analysis": {
+          "luminance_p02": 1,
+          "luminance_median": 73,
+          "luminance_p98": 236,
+          "dynamic_range": 235,
+          "saturation_mean": 55.97,
+          "detail_score": 4.62,
+          "noise_proxy": 2.52
+        },
+        "corrections": {
+          "white_balance_gains": [
+            0.98,
+            0.9959,
+            1.02
+          ],
+          "exposure_factor": 1.05,
+          "tonal_blend": 0.15,
+          "shadow_lift": 3.5,
+          "contrast_factor": 0.99,
+          "saturation_factor": 1.0,
+          "denoise_blend": 0.0,
+          "sharpen_percent": 55
+        }
+      }
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\Área Comum\\PHOTO-2026-07-14-13-31-17.jpg",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\assets-webp\\area-comum\\area-comum-032.webp",
+      "width": 1600,
+      "height": 1200,
+      "source_bytes": 331266,
+      "target_bytes": 303780,
+      "enhanced": true,
+      "enhancement": {
+        "mean_absolute_change": 4.55,
+        "analysis": {
+          "luminance_p02": 6,
+          "luminance_median": 112,
+          "luminance_p98": 235,
+          "dynamic_range": 229,
+          "saturation_mean": 151.68,
+          "detail_score": 6.07,
+          "noise_proxy": 4.17
+        },
+        "corrections": {
+          "white_balance_gains": [
+            0.98,
+            1.0199,
+            1.02
+          ],
+          "exposure_factor": 1.0,
+          "tonal_blend": 0.15,
+          "shadow_lift": 0.25,
+          "contrast_factor": 1.01,
+          "saturation_factor": 0.97,
+          "denoise_blend": 0.0,
+          "sharpen_percent": 55
+        }
+      }
+    }
+  ]
+}
