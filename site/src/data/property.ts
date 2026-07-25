@@ -38,8 +38,8 @@ export const property = {
   position: "Prumada 1",
   orientation: "Nascente",
   contactName: "Rodrigo",
-  phone: "+55 62 99870-0055",
-  phoneNormalized: "5562998700055",
+  phone: "+55 61 98147-4572",
+  phoneNormalized: "5561981474572",
   whatsappMessage:
     "Olá, Rodrigo. Vi o site do apartamento no Mundi Consciente Square e gostaria de receber mais informações e agendar uma visita.",
   siteUrl: resolveSiteUrl(),
