@@ -37,4 +37,28 @@ Ao atualizar o conteúdo:
 
 Configure `NEXT_PUBLIC_SITE_URL` com a URL canônica antes do build de produção. Na Vercel, o projeto também reconhece automaticamente `VERCEL_PROJECT_PRODUCTION_URL` ou `VERCEL_URL`.
 
-O diretório raiz do projeto na Vercel deve ser `site/`.
+### Vercel
+
+O site está publicado em:
+
+- Produção: <https://anuncio-mundi.vercel.app>
+- Projeto: `anuncio-mundi`
+- Repositório: `rgsouza2024/anuncio_mundi`
+- Branch de produção: `main`
+
+Configuração do projeto:
+
+| Opção | Valor |
+| --- | --- |
+| Framework Preset | `Next.js` |
+| Root Directory | `site` |
+| Node.js Version | `24.x` |
+| Install Command | padrão do Vercel (`npm install`) |
+| Build Command | padrão do Next.js (`npm run build`) |
+| Output Directory | padrão do Next.js |
+
+O GitHub está conectado ao Vercel. Cada atualização de uma branch ou pull request gera uma implantação de pré-visualização; depois do merge na `main`, uma nova implantação de produção é iniciada automaticamente e o domínio principal passa a apontar para ela.
+
+Não é necessário cadastrar `NEXT_PUBLIC_SITE_URL` na Vercel enquanto as variáveis automáticas `VERCEL_PROJECT_PRODUCTION_URL` ou `VERCEL_URL` estiverem disponíveis. Use `NEXT_PUBLIC_SITE_URL` somente para substituir explicitamente a URL canônica.
+
+Se o domínio retornar `404: NOT_FOUND` apesar de a implantação constar como pronta, confirme se `Root Directory` está definido como `site` e se o preset está definido como `Next.js`. Após alterar essas opções, faça um redeploy usando as configurações mais recentes do projeto.
