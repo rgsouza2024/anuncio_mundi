@@ -23,7 +23,7 @@ npm run build
 
 Os dados comerciais, o telefone, a mensagem do WhatsApp, as comodidades e a galeria ficam centralizados em `src/data/property.ts`.
 
-As 21 fotografias publicadas estão organizadas por ambiente em `public/images/`. O acervo mestre permanece fora da pasta pública, em `../assets-webp/`.
+A galeria do apartamento reúne 21 fotografias e a seção do condomínio, 17. As imagens públicas estão organizadas por ambiente em `public/images/`; o acervo mestre permanece fora da pasta pública, em `../assets-webp/`.
 
 Ao atualizar o conteúdo:
 

@@ -1,0 +1,34 @@
+{
+  "count": 2,
+  "lossless": false,
+  "quality": 76,
+  "enhance_photo": false,
+  "enhancement_profile": null,
+  "deleted_originals": false,
+  "source_bytes": 194064,
+  "target_bytes": 88172,
+  "saved_bytes": 105892,
+  "saved_percent": 54.57,
+  "files": [
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\assets-webp\\fotos\\Piscina 01.JPG",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\assets-webp\\fotos\\piscina-001.webp",
+      "width": 588,
+      "height": 522,
+      "source_bytes": 108039,
+      "target_bytes": 49800,
+      "enhanced": false,
+      "enhancement": null
+    },
+    {
+      "source": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\assets-webp\\fotos\\Piscina 02.JPG",
+      "target": "C:\\Users\\Rodrigo\\projetos\\anuncio_mundi\\assets-webp\\fotos\\piscina-002.webp",
+      "width": 573,
+      "height": 450,
+      "source_bytes": 86025,
+      "target_bytes": 38372,
+      "enhanced": false,
+      "enhancement": null
+    }
+  ]
+}

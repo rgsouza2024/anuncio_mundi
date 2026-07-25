@@ -30,7 +30,7 @@ O resultado esperado é uma página:
 | Paleta | Grafite, dourado contido e marfim |
 | Preço | Visível na primeira tela |
 | Fotografias | Somente imagens reais fornecidas |
-| Áreas comuns | 15 fotografias no desktop; seleção de 6 e lightbox completo no mobile |
+| Áreas comuns | 17 fotografias no desktop; seleção de 6 e lightbox completo no mobile |
 | Localização | Identificar o edifício e abrir mapa externo sob demanda |
 | Privacidade | Não divulgar o número da unidade |
 | Hospedagem | Vercel |
@@ -48,11 +48,11 @@ A raiz contém as fontes do anúncio já otimizadas:
 - 1 mapa WebP em `assets-webp/mapa/`;
 - 1 documento Word com textos e pesquisa de mercado.
 
-Os JPG e PNG originais do lote inicial foram copiados para backup externo, convertidos com remoção de metadados e excluídos desta pasta por decisão do responsável. O mesmo fluxo foi aplicado às 32 fotografias do primeiro lote das áreas comuns: tratamento adaptativo, conversão para WebP e exclusão dos originais após confirmação de backup. No segundo lote, as fontes foram preservadas e 21 versões tratadas foram geradas. Uma seleção editorial de 21 fotografias compõe a galeria do apartamento em `site/public/images/`. Uma imagem adicional de garagem e escaninho foi publicada em seção própria, e 15 fotografias selecionadas das áreas comuns foram publicadas na seção do condomínio; o novo arquivo-fonte `garagem_mundi.png` foi preservado.
+Os JPG e PNG originais do lote inicial foram copiados para backup externo, convertidos com remoção de metadados e excluídos desta pasta por decisão do responsável. O mesmo fluxo foi aplicado às 32 fotografias do primeiro lote das áreas comuns: tratamento adaptativo, conversão para WebP e exclusão dos originais após confirmação de backup. No segundo lote, as fontes foram preservadas e 21 versões tratadas foram geradas. Uma seleção editorial de 21 fotografias compõe a galeria do apartamento em `site/public/images/`. Uma imagem adicional de garagem e escaninho foi publicada em seção própria, e 17 fotografias selecionadas das áreas comuns foram publicadas na seção do condomínio; o novo arquivo-fonte `garagem_mundi.png` foi preservado.
 
-O diretório `site/` contém a landing page implementada em Next.js 16, React 19 e TypeScript, com dependências travadas em `package-lock.json`. Conteúdo, galeria acessível, SEO, dados estruturados e cabeçalhos de segurança estão implementados. O acervo mestre em `assets-webp/` permanece separado dos 37 arquivos publicados.
+O diretório `site/` contém a landing page implementada em Next.js 16, React 19 e TypeScript, com dependências travadas em `package-lock.json`. Conteúdo, galeria acessível, SEO, dados estruturados e cabeçalhos de segurança estão implementados. O acervo mestre em `assets-webp/` permanece separado dos 39 arquivos publicados.
 
-Das 37 imagens públicas, 33 receberam tratamento fotográfico adaptativo de exposição, luminosidade, contraste, balanço de branco, saturação e nitidez. As quatro imagens mais recentes — hero, vista, sala de estar e garagem — foram preservadas sem tratamento adicional. O processo não utiliza IA generativa, mantém dimensões e elementos visuais e preserva as versões anteriores no acervo mestre.
+Das 39 imagens públicas, 33 receberam tratamento fotográfico adaptativo de exposição, luminosidade, contraste, balanço de branco, saturação e nitidez. As seis imagens mais recentes — hero, vista, sala de estar, garagem e duas fotografias da piscina — foram preservadas sem tratamento adicional. O processo não utiliza IA generativa, mantém dimensões e elementos visuais e preserva as versões anteriores no acervo mestre.
 
 A versão local passou por lint, verificação de tipos, build de produção e testes responsivos em 360, 768 e 1440 px. A publicação na Vercel permanece como etapa separada, pois depende de autorização explícita para criar uma implantação externa.
 

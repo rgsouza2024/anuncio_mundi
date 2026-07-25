@@ -32,13 +32,19 @@ def main() -> None:
             assert page.locator("h1").count() == 1
             assert "R$ 1.650.000,00" in page.locator("body").inner_text()
             common_area_cards = page.locator(".common-area-card")
-            assert common_area_cards.count() == 15
+            assert common_area_cards.count() == 17
             assert page.locator(".common-area-card:visible").count() == (
-                6 if width == 360 else 15
+                6 if width == 360 else 17
             )
             assert page.get_by_role(
-                "button", name="Ver todas as 15 fotos"
+                "button", name="Ver todas as 17 fotos"
             ).count() == (1 if width == 360 else 0)
+            common_area_text = (
+                page.locator(".common-areas-gallery").text_content() or ""
+            )
+            assert "Piscina e cascatas" in common_area_text
+            assert "Piscina à noite" in common_area_text
+            assert "Piscina e vista" in common_area_text
             assert "Praça do Fogo" in page.locator(".common-areas-gallery").inner_text()
             assert "2001" not in page.locator("body").inner_text()
             assert page.evaluate("document.documentElement.scrollWidth <= innerWidth")
@@ -52,7 +58,15 @@ def main() -> None:
                     scrollTo(0, 0);
                 }"""
             )
-            page.wait_for_timeout(300)
+            for image in page.locator("img").all():
+                if image.is_visible():
+                    image.scroll_into_view_if_needed()
+            page.wait_for_function(
+                """() => [...document.images]
+                    .filter(image => image.offsetParent !== null)
+                    .every(image => image.complete && image.naturalWidth > 0)""",
+                timeout=15_000,
+            )
             broken_images = page.locator("img").evaluate_all(
                 "images => images.filter(image => image.offsetParent !== null && (!image.complete || image.naturalWidth === 0)).map(image => image.currentSrc || image.src)"
             )

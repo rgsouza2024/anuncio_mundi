@@ -237,7 +237,7 @@ export default function Home() {
             <ul>
               <li>Complexo Órion e serviços de saúde</li>
               <li>Escolas e conveniências a poucos minutos</li>
-              <li>Acesso rápido à Avenida Portugal</li>
+              <li>Acesso rápido à Av. Portugal, Av. Mutirão e Av. D</li>
             </ul>
             <a className="button button-outline" href={property.mapUrl} target="_blank" rel="noopener noreferrer">
               Abrir no Google Maps <span aria-hidden="true">↗</span>
