@@ -23,6 +23,7 @@
     "typescript": "^5"
   },
   "overrides": {
-    "postcss": "8.5.19"
+    "postcss": "8.5.19",
+    "sharp@0.34.5": "0.35.3"
   }
 }
