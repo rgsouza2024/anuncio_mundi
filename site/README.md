@@ -19,6 +19,30 @@ npm run typecheck
 npm run build
 ```
 
+### Smoke test
+
+O smoke test usa Python 3.12 e Playwright. Instale a dependência e o Chromium:
+
+```bash
+python -m pip install -r tests/requirements.txt
+python -m playwright install chromium
+```
+
+Com o build pronto, inicie o servidor em um terminal:
+
+```bash
+npm run build
+npm run start
+```
+
+Em outro terminal, execute:
+
+```bash
+npm run test:smoke
+```
+
+As capturas são gravadas em `.test-artifacts/smoke/`.
+
 ## Conteúdo
 
 Os dados comerciais, o telefone, a mensagem do WhatsApp, as comodidades e a galeria ficam centralizados em `src/data/property.ts`.
