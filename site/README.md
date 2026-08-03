@@ -39,9 +39,10 @@ Em outro terminal, execute:
 
 ```bash
 npm run test:smoke
+npm run test:lighthouse
 ```
 
-As capturas são gravadas em `.test-artifacts/smoke/`.
+As capturas do smoke são gravadas em `.test-artifacts/smoke/`. O Lighthouse audita a experiência móvel e exige pontuação mínima de 90 em desempenho, acessibilidade, boas práticas e SEO.
 
 ## Conteúdo
 

@@ -4,7 +4,7 @@ import argparse
 import json
 from pathlib import Path
 
-from playwright.sync_api import sync_playwright
+from playwright.sync_api import expect, sync_playwright
 
 
 def main() -> None:
@@ -32,6 +32,16 @@ def main() -> None:
             assert "Mundi Consciente Square" in page.title()
             assert page.locator("h1").count() == 1
             assert "R$ 1.650.000,00" in page.locator("body").inner_text()
+            meta_description = page.locator('meta[name="description"]').get_attribute(
+                "content"
+            )
+            assert meta_description is not None
+            assert "147 m²" in meta_description
+            assert "R$ 1.650.000,00" in meta_description
+            assert page.locator('link[rel="canonical"]').get_attribute("href") == (
+                "http://localhost:3000"
+            )
+            assert page.locator('meta[property="og:image"]').count() == 1
             structured_data = json.loads(
                 page.locator('script[type="application/ld+json"]').text_content()
                 or "{}"
@@ -110,12 +120,33 @@ def main() -> None:
             page.screenshot(path=args.output_dir / f"hero-{width}.png")
 
             if width == 360:
+                assert not console_errors, console_errors
                 menu_button = page.get_by_role("button", name="Abrir menu")
                 menu_button.click()
-                assert page.locator("#mobile-menu").get_attribute("aria-hidden") == "false"
+                mobile_menu = page.locator("#mobile-menu")
+                expect(mobile_menu).to_have_attribute("aria-hidden", "false")
                 assert page.evaluate("document.body.style.overflow") == "hidden"
+                first_menu_link = mobile_menu.get_by_role("link").first
+                last_menu_link = mobile_menu.get_by_role("link").last
+                page.wait_for_function(
+                    "() => document.activeElement === document.querySelector('#mobile-menu a')"
+                )
+                assert first_menu_link.evaluate(
+                    "element => element === document.activeElement"
+                )
+                page.keyboard.press("Shift+Tab")
+                assert last_menu_link.evaluate(
+                    "element => element === document.activeElement"
+                )
+                page.keyboard.press("Tab")
+                assert first_menu_link.evaluate(
+                    "element => element === document.activeElement"
+                )
                 page.keyboard.press("Escape")
-                assert page.locator("#mobile-menu").get_attribute("aria-hidden") == "true"
+                expect(mobile_menu).to_have_attribute("aria-hidden", "true")
+                assert menu_button.evaluate(
+                    "element => element === document.activeElement"
+                )
 
                 first_gallery = page.locator(".gallery-item").first
                 first_gallery.scroll_into_view_if_needed()

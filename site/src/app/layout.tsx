@@ -17,25 +17,38 @@ const manrope = Manrope({
 
 export const metadata: Metadata = {
   metadataBase: new URL(property.siteUrl),
-  title: "Apartamento à venda no Mundi Consciente Square | 147 m², nascente e porteira fechada",
-  description: "Apartamento de 147 m² no Setor Marista, com três suítes, Prumada 1, orientação nascente, 20º andar e negociação porteira fechada.",
+  applicationName: property.name,
+  title: property.seo.title,
+  description: property.seo.description,
+  keywords: [...property.seo.keywords],
+  category: "Imóveis",
   alternates: { canonical: "/" },
   openGraph: {
     type: "website",
     locale: "pt_BR",
     url: "/",
     siteName: property.name,
-    title: "Mundi Consciente Square | 147 m² · Nascente · Porteira fechada",
-    description: "Prumada 1, 20º andar, três suítes e vista livre para a praça no Setor Marista.",
-    images: [{ url: "/images/social/hero-varanda-vista.webp", width: 1448, height: 1086, alt: "Varanda gourmet com vista no Mundi Consciente Square" }],
+    title: property.seo.socialTitle,
+    description: property.seo.description,
+    images: [property.seo.image],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Mundi Consciente Square | Apartamento à venda",
-    description: "147 m², Prumada 1, nascente, três suítes e porteira fechada.",
-    images: ["/images/social/hero-varanda-vista.webp"],
+    title: property.seo.socialTitle,
+    description: property.seo.description,
+    images: [property.seo.image.url],
   },
-  robots: { index: true, follow: true },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
+  },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

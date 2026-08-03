@@ -52,13 +52,34 @@ const area = `${areaValue} m²`;
 const floor = `${floorValue}º andar`;
 const suites = `${suiteCount} suítes`;
 const parking = `${parkingCount} vagas`;
+const price = formatBrl(priceValue);
+const description = `Apartamento de ${area}, ${orientation.toLowerCase()}, com ${suites} e negociação porteira fechada no ${address.district}.`;
+const seo = {
+  title: `${name} à venda | ${area} no ${address.district}`,
+  description: `Apartamento de ${area} à venda no ${address.district}, ${address.city}: ${suites}, ${position}, ${orientation.toLowerCase()}, ${floor} e porteira fechada por ${price}.`,
+  socialTitle: `${name} | ${area} · ${orientation} · Porteira fechada`,
+  keywords: [
+    name,
+    `apartamento à venda no ${address.district}`,
+    `apartamento ${area} em ${address.city}`,
+    `${suiteCount} suítes`,
+    "porteira fechada",
+  ],
+  image: {
+    url: "/images/social/hero-varanda-vista.webp",
+    width: 1448,
+    height: 1086,
+    alt: `Varanda gourmet com vista no ${name}`,
+  },
+} as const;
 
 export const property = {
   name,
   location: `${address.district}, ${address.city}`,
   address,
-  description: `Apartamento de ${area}, ${orientation.toLowerCase()}, com ${suites} e negociação porteira fechada no ${address.district}.`,
-  price: formatBrl(priceValue),
+  description,
+  seo,
+  price,
   priceValue,
   condominium: "Aproximadamente R$ 1.300/mês",
   area,

@@ -60,7 +60,7 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Smoke test
+      - name: Browser checks
         shell: bash
         run: |
           set -euo pipefail
@@ -83,3 +83,4 @@ jobs:
           fi
 
           npm run test:smoke
+          npm run test:lighthouse
