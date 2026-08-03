@@ -30,7 +30,7 @@ def main() -> None:
             assert response is not None and response.ok
             assert "Mundi Consciente Square" in page.title()
             assert page.locator("h1").count() == 1
-            assert "R$ 1.650.000,00" in page.locator("body").inner_text()
+            assert "R$ 1.620.000,00" in page.locator("body").inner_text()
             common_area_cards = page.locator(".common-area-card")
             assert common_area_cards.count() == 17
             assert page.locator(".common-area-card:visible").count() == (
