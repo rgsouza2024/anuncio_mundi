@@ -97,7 +97,7 @@ def main() -> None:
             assert "unsafe-eval" not in response.headers.get(
                 "content-security-policy", ""
             )
-            assert page.locator('a[href^="https://wa.me/5561981474572"]').count() >= 3
+            assert page.locator('a[href^="https://wa.me/5562999455780"]').count() >= 3
             whatsapp_float = page.get_by_role(
                 "link", name="Falar com Rodrigo pelo WhatsApp"
             )

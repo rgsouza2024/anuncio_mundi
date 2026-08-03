@@ -91,8 +91,8 @@ export const property = {
   position,
   orientation,
   contactName,
-  phone: "+55 61 98147-4572",
-  phoneNormalized: "5561981474572",
+  phone: "+55 62 99945-5780",
+  phoneNormalized: "5562999455780",
   whatsappMessage:
     `Olá, ${contactName}. Vi o site do apartamento no ${name} e gostaria de receber mais informações e agendar uma visita.`,
   siteUrl: resolveSiteUrl(),
