@@ -11,15 +11,15 @@ export default function Home() {
     "@context": "https://schema.org",
     "@type": "Apartment",
     name: property.name,
-    description: "Apartamento de 147 m², nascente, com três suítes e negociação porteira fechada no Setor Marista.",
-    floorSize: { "@type": "QuantitativeValue", value: 147, unitCode: "MTK" },
-    numberOfBedrooms: 3,
+    description: property.description,
+    floorSize: { "@type": "QuantitativeValue", value: property.areaValue, unitCode: "MTK" },
+    numberOfBedrooms: property.suiteCount,
     address: {
       "@type": "PostalAddress",
-      streetAddress: "Rua 27",
-      addressLocality: "Goiânia",
-      addressRegion: "GO",
-      addressCountry: "BR",
+      streetAddress: property.address.street,
+      addressLocality: property.address.city,
+      addressRegion: property.address.state,
+      addressCountry: property.address.country,
     },
     offers: {
       "@type": "Offer",
@@ -50,16 +50,16 @@ export default function Home() {
           />
           <div className="hero-overlay" />
           <div className="hero-rail" aria-hidden="true">
-            <span>Goiânia</span>
+            <span>{property.address.city}</span>
             <span>16°41′S · 49°15′W</span>
           </div>
           <div className="hero-content shell">
-            <p className="eyebrow">Setor Marista · Goiânia</p>
+            <p className="eyebrow">{property.location.replace(", ", " · ")}</p>
             <h1 id="hero-title">
               Mundi Consciente
               <span>Square</span>
             </h1>
-            <p className="hero-statement">Prumada 1. Nascente.<br />Vista livre para a praça.</p>
+            <p className="hero-statement">{property.position}. {property.orientation}.<br />Vista livre para a praça.</p>
             <div className="hero-bottom">
               <div className="hero-price">
                 <span>Investimento</span>
@@ -106,7 +106,7 @@ export default function Home() {
               <h2 id="property-title">Uma planta pensada para a vida acontecer por inteiro.</h2>
             </div>
             <div className="body-copy">
-              <p>Os 147 m² privativos organizam três suítes plenas e uma área social contínua. A cozinha se conecta à varanda gourmet, enquanto a planta vazada favorece circulação de ar e luz natural.</p>
+              <p>Os {property.area} privativos organizam {property.suites} plenas e uma área social contínua. A cozinha se conecta à varanda gourmet, enquanto a planta vazada favorece circulação de ar e luz natural.</p>
               <p>A churrasqueira a carvão, a marcenaria sob medida e os ambientes integrados criam uma casa funcional no cotidiano e generosa ao receber.</p>
             </div>
           </div>
@@ -203,7 +203,7 @@ export default function Home() {
             />
             <figcaption>
               <span>Registro real</span>
-              <p>As três vagas e o escaninho privativo, localizados próximos aos elevadores.</p>
+              <p>As {property.parking} e o escaninho privativo, localizados próximos aos elevadores.</p>
             </figcaption>
           </figure>
         </section>
@@ -233,7 +233,7 @@ export default function Home() {
           <div className="location-copy">
             <p className="kicker">Localização</p>
             <h2 id="location-title">No encontro entre Marista, Bueno e Oeste.</h2>
-            <p>Na Rua 27, ao lado do Complexo Órion e do Hospital Israelita Albert Einstein, em frente ao Colégio Protágoras e próximo ao Colégio Imaculada.</p>
+            <p>Na {property.address.street}, ao lado do Complexo Órion e do Hospital Israelita Albert Einstein, em frente ao Colégio Protágoras e próximo ao Colégio Imaculada.</p>
             <ul>
               <li>Complexo Órion e serviços de saúde</li>
               <li>Escolas e conveniências a poucos minutos</li>
@@ -257,7 +257,7 @@ export default function Home() {
               <p>Imóvel informado como quitado, escriturado e registrado.</p>
             </div>
             <a className="contact-action" href={whatsappHref} target="_blank" rel="noopener noreferrer">
-              <span>Fale com Rodrigo</span>
+              <span>Fale com {property.contactName}</span>
               <strong>{property.phone}</strong>
               <i aria-hidden="true">↗</i>
             </a>
@@ -268,12 +268,12 @@ export default function Home() {
       <footer className="site-footer">
         <div className="shell footer-top">
           <div className="brand footer-brand"><span>Mundi Consciente</span><strong>Square</strong></div>
-          <p>{property.location}<br />Goiânia · Goiás</p>
+          <p>{property.address.district}<br />{property.address.city} · {property.address.stateName}</p>
           <a href="#top">Voltar ao topo ↑</a>
         </div>
         <div className="shell footer-bottom">
           <p>Informações, valores, disponibilidade e itens incluídos na negociação estão sujeitos a confirmação. A modalidade porteira fechada será formalizada por inventário contratual.</p>
-          <span>© {new Date().getFullYear()} Mundi Consciente Square</span>
+          <span>© {new Date().getFullYear()} {property.name}</span>
         </div>
       </footer>
 

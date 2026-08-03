@@ -24,41 +24,72 @@ function resolveSiteUrl() {
   return "http://localhost:3000";
 }
 
+function formatBrl(value: number) {
+  return `R$ ${value.toLocaleString("pt-BR", {
+    minimumFractionDigits: 2,
+    maximumFractionDigits: 2,
+  })}`;
+}
+
+const name = "Mundi Consciente Square";
+const address = {
+  street: "Rua 27",
+  district: "Setor Marista",
+  city: "Goiânia",
+  state: "GO",
+  stateName: "Goiás",
+  country: "BR",
+} as const;
+const priceValue = 1650000;
+const areaValue = 147;
+const floorValue = 20;
+const suiteCount = 3;
+const parkingCount = 3;
+const position = "Prumada 1";
+const orientation = "Nascente";
+const contactName = "Rodrigo";
+const area = `${areaValue} m²`;
+const floor = `${floorValue}º andar`;
+const suites = `${suiteCount} suítes`;
+const parking = `${parkingCount} vagas`;
+
 export const property = {
-  name: "Mundi Consciente Square",
-  location: "Setor Marista, Goiânia",
-  address: "Rua 27, Setor Marista, Goiânia - GO",
-  price: "R$ 1.650.000,00",
-  priceValue: 1650000,
+  name,
+  location: `${address.district}, ${address.city}`,
+  address,
+  description: `Apartamento de ${area}, ${orientation.toLowerCase()}, com ${suites} e negociação porteira fechada no ${address.district}.`,
+  price: formatBrl(priceValue),
+  priceValue,
   condominium: "Aproximadamente R$ 1.300/mês",
-  area: "147 m²",
-  floor: "20º andar",
-  suites: "3 suítes",
-  parking: "3 vagas",
-  position: "Prumada 1",
-  orientation: "Nascente",
-  contactName: "Rodrigo",
+  area,
+  areaValue,
+  floor,
+  suites,
+  suiteCount,
+  parking,
+  position,
+  orientation,
+  contactName,
   phone: "+55 61 98147-4572",
   phoneNormalized: "5561981474572",
   whatsappMessage:
-    "Olá, Rodrigo. Vi o site do apartamento no Mundi Consciente Square e gostaria de receber mais informações e agendar uma visita.",
+    `Olá, ${contactName}. Vi o site do apartamento no ${name} e gostaria de receber mais informações e agendar uma visita.`,
   siteUrl: resolveSiteUrl(),
-  mapUrl:
-    "https://www.google.com/maps/search/?api=1&query=Mundi%20Consciente%20Square%20Goi%C3%A2nia",
+  mapUrl: `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${name} ${address.city}`)}`,
   highlights: [
     {
       number: "01",
-      title: "Prumada 1",
+      title: position,
       text: "Uma posição privilegiada dentro do empreendimento.",
     },
     {
       number: "02",
-      title: "Nascente",
+      title: orientation,
       text: "Luz da manhã e menor incidência do sol da tarde na varanda.",
     },
     {
       number: "03",
-      title: "20º andar",
+      title: floor,
       text: "Amplitude visual e menor exposição aos ruídos urbanos.",
     },
     {

@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import argparse
+import json
 from pathlib import Path
 
 from playwright.sync_api import sync_playwright
@@ -31,6 +32,14 @@ def main() -> None:
             assert "Mundi Consciente Square" in page.title()
             assert page.locator("h1").count() == 1
             assert "R$ 1.650.000,00" in page.locator("body").inner_text()
+            structured_data = json.loads(
+                page.locator('script[type="application/ld+json"]').text_content()
+                or "{}"
+            )
+            assert structured_data["floorSize"]["value"] == 147
+            assert structured_data["numberOfBedrooms"] == 3
+            assert structured_data["address"]["streetAddress"] == "Rua 27"
+            assert structured_data["offers"]["price"] == 1650000
             common_area_cards = page.locator(".common-area-card")
             assert common_area_cards.count() == 17
             assert page.locator(".common-area-card:visible").count() == (
