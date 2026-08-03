@@ -114,7 +114,7 @@ O rodapé deverá informar:
 - selo “Setor Marista · Goiânia”;
 - título “Mundi Consciente Square”;
 - frase principal “Prumada 1. Nascente. Vista livre para a praça.”;
-- investimento “R$ 1.630.000”;
+- investimento “R$ 1.650.000”;
 - resumo: 147 m², três suítes, três vagas e 20º andar;
 - CTA principal para WhatsApp;
 - CTA secundário “Conhecer o imóvel”, apontando para a próxima seção.
@@ -213,7 +213,7 @@ O mapa não será incorporado. O clique abrirá uma nova aba com busca pelo empr
 
 ### 6.11 Investimento, documentação e contato
 
-- investimento: R$ 1.630.000,00;
+- investimento: R$ 1.650.000,00;
 - imóvel quitado, escriturado e registrado;
 - condomínio aproximado: R$ 1.300/mês;
 - CTA final de WhatsApp;
@@ -402,7 +402,7 @@ Metas para teste móvel:
 - confirmar três vagas;
 - confirmar Prumada 1;
 - confirmar 20º andar;
-- confirmar R$ 1.630.000,00;
+- confirmar R$ 1.650.000,00;
 - confirmar condomínio aproximado de R$ 1.300,00;
 - confirmar o telefone `+55 61 98147-4572`.
 
