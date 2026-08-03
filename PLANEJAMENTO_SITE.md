@@ -312,7 +312,7 @@ Não haverá API pública, rota de servidor, formulário, autenticação, banco 
 
 ### WhatsApp
 
-Número normalizado: `5562998700055`.
+Número normalizado: `5561981474572`.
 
 Mensagem:
 
@@ -404,7 +404,7 @@ Metas para teste móvel:
 - confirmar 20º andar;
 - confirmar R$ 1.630.000,00;
 - confirmar condomínio aproximado de R$ 1.300,00;
-- confirmar o telefone `+55 62 99870-0055`.
+- confirmar o telefone `+55 61 98147-4572`.
 
 ### Responsividade
 
