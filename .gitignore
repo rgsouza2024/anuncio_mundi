@@ -1,4 +1,6 @@
 # Dependencies and generated builds
+# The repository root is not a Node.js package
+/package-lock.json
 site/node_modules/
 site/.next/
 site/out/
