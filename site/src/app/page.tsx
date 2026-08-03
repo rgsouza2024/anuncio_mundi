@@ -257,7 +257,7 @@ export default function Home() {
               <p>Imóvel informado como quitado, escriturado e registrado.</p>
             </div>
             <a className="contact-action" href={whatsappHref} target="_blank" rel="noopener noreferrer">
-              <span>Fale com {property.contactName}</span>
+              <span>Fale pelo WhatsApp</span>
               <strong>{property.phone}</strong>
               <i aria-hidden="true">↗</i>
             </a>
@@ -282,7 +282,7 @@ export default function Home() {
         href={whatsappHref}
         target="_blank"
         rel="noopener noreferrer"
-        aria-label="Falar com Rodrigo pelo WhatsApp"
+        aria-label="Abrir conversa pelo WhatsApp"
       >
         <span className="whatsapp-label" aria-hidden="true">Falar pelo WhatsApp</span>
         <svg aria-hidden="true" viewBox="0 0 32 32" focusable="false">

@@ -47,7 +47,6 @@ const suiteCount = 3;
 const parkingCount = 3;
 const position = "Prumada 1";
 const orientation = "Nascente";
-const contactName = "Rodrigo";
 const area = `${areaValue} m²`;
 const floor = `${floorValue}º andar`;
 const suites = `${suiteCount} suítes`;
@@ -90,11 +89,10 @@ export const property = {
   parking,
   position,
   orientation,
-  contactName,
   phone: "+55 62 99945-5780",
   phoneNormalized: "5562999455780",
   whatsappMessage:
-    `Olá, ${contactName}. Vi o site do apartamento no ${name} e gostaria de receber mais informações e agendar uma visita.`,
+    `Olá! Vi o site do apartamento no ${name} e gostaria de receber mais informações e agendar uma visita.`,
   siteUrl: resolveSiteUrl(),
   mapUrl: `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${name} ${address.city}`)}`,
   highlights: [

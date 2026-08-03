@@ -62,7 +62,7 @@ export function Header({ whatsappHref }: HeaderProps) {
       </nav>
 
       <a className="header-cta" href={whatsappHref} target="_blank" rel="noopener noreferrer">
-        Falar com Rodrigo
+        Falar pelo WhatsApp
       </a>
 
       <button
@@ -87,7 +87,7 @@ export function Header({ whatsappHref }: HeaderProps) {
             </a>
           ))}
           <a className="mobile-contact" href={whatsappHref} target="_blank" rel="noopener noreferrer">
-            Falar com Rodrigo
+            Falar pelo WhatsApp
           </a>
         </nav>
       </div>

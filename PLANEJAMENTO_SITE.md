@@ -24,7 +24,7 @@ O resultado esperado é uma página:
 |---|---|
 | Formato | Landing page de uma única rota |
 | Conversão | WhatsApp direto |
-| Contato | “Fale com Rodrigo”, sem atribuição de proprietário ou corretor |
+| Contato | “Fale pelo WhatsApp”, sem atribuição de proprietário ou corretor |
 | Tráfego inicial | Compartilhamento direto e orgânico |
 | Direção visual | Editorial sofisticada |
 | Paleta | Grafite, dourado contido e marfim |
@@ -105,7 +105,7 @@ O rodapé deverá informar:
 
 - marca textual “Mundi Consciente Square”;
 - links: Visão geral, Imóvel, Galeria, Porteira fechada, Condomínio, Localização e Contato;
-- CTA “Falar com Rodrigo”;
+- CTA “Falar pelo WhatsApp”;
 - versão móvel com menu acessível e bloqueio de rolagem enquanto aberto.
 
 ### 6.2 Hero — visão geral
@@ -217,7 +217,7 @@ O mapa não será incorporado. O clique abrirá uma nova aba com busca pelo empr
 - imóvel quitado, escriturado e registrado;
 - condomínio aproximado: R$ 1.300/mês;
 - CTA final de WhatsApp;
-- contato apresentado como “Fale com Rodrigo”.
+- contato apresentado como “Fale pelo WhatsApp”.
 
 ### 6.12 Rodapé
 
@@ -312,11 +312,11 @@ Não haverá API pública, rota de servidor, formulário, autenticação, banco 
 
 ### WhatsApp
 
-Número normalizado: `5561981474572`.
+Número normalizado: `5562999455780`.
 
 Mensagem:
 
-> Olá, Rodrigo. Vi o site do apartamento no Mundi Consciente Square e gostaria de receber mais informações e agendar uma visita.
+> Olá! Vi o site do apartamento no Mundi Consciente Square e gostaria de receber mais informações e agendar uma visita.
 
 Todos os CTAs usarão a mesma função para gerar o link `https://wa.me/` com mensagem codificada.
 

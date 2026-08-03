@@ -99,7 +99,7 @@ def main() -> None:
             )
             assert page.locator('a[href^="https://wa.me/5562999455780"]').count() >= 3
             whatsapp_float = page.get_by_role(
-                "link", name="Falar com Rodrigo pelo WhatsApp"
+                "link", name="Abrir conversa pelo WhatsApp"
             )
             assert whatsapp_float.is_visible()
             assert whatsapp_float.locator("svg").count() == 1
