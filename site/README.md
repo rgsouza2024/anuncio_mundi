@@ -46,17 +46,17 @@ As capturas do smoke são gravadas em `.test-artifacts/smoke/`. O Lighthouse aud
 
 ## Conteúdo
 
-Os dados comerciais, o telefone, a mensagem do WhatsApp, as comodidades e a galeria ficam centralizados em `src/data/property.ts`.
+Os dados comerciais, a modalidade de negociação (`Porteira fechada`), o valor aproximado do condomínio, o telefone, a mensagem do WhatsApp, as comodidades e as galerias ficam centralizados em `src/data/property.ts`. O site não exibe o valor de venda do imóvel na interface, nos metadados de compartilhamento (Open Graph / Twitter) nem nos dados estruturados (`JSON-LD`).
 
-A galeria do apartamento reúne 21 fotografias e a seção do condomínio, 17. As imagens públicas estão organizadas por ambiente em `public/images/`; o acervo mestre permanece fora da pasta pública, em `../assets-webp/`.
+A galeria principal do apartamento reúne 21 fotografias (exibindo 8 na grade inicial em telas móveis com o botão *"Ver todas as 21 fotos"* para abrir o lightbox completo) e a seção do condomínio reúne 17 fotografias (exibindo 6 na grade inicial em telas móveis com o botão *"Ver todas as 17 fotos"*). As imagens públicas estão organizadas por ambiente em `public/images/`; o acervo mestre permanece fora da pasta pública, em `../assets-webp/`.
 
 Ao atualizar o conteúdo:
 
 1. Confirmar condomínio, modalidade de negociação, disponibilidade e inventário.
-2. Não inserir o número da unidade nem o valor do imóvel em textos, metadados ou arquivos.
-3. Publicar apenas fotografias reais e sem metadados sensíveis.
+2. Não inserir o número da unidade nem o valor de venda do imóvel em textos, metadados, JSON-LD ou nomes de arquivos.
+3. Publicar apenas fotografias reais e sem metadados sensíveis (EXIF).
 4. Manter a captura de mapa e as artes de referência fora de `public/`.
-5. Executar lint, tipos e build antes da publicação.
+5. Executar `npm run lint`, `npm run typecheck`, `npm run build` e `npm run test:smoke` antes da publicação.
 
 ## Publicação
 
