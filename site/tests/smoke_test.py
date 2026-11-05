@@ -31,13 +31,16 @@ def main() -> None:
             assert response is not None and response.ok
             assert "Mundi Consciente Square" in page.title()
             assert page.locator("h1").count() == 1
-            assert "R$ 1.650.000,00" in page.locator("body").inner_text()
+            body_text = page.locator("body").inner_text()
+            assert "Porteira fechada" in body_text
+            assert "1.650.000" not in body_text
             meta_description = page.locator('meta[name="description"]').get_attribute(
                 "content"
             )
             assert meta_description is not None
             assert "147 m²" in meta_description
-            assert "R$ 1.650.000,00" in meta_description
+            assert "porteira fechada" in meta_description.lower()
+            assert "1.650.000" not in meta_description
             assert page.locator('link[rel="canonical"]').get_attribute("href") == (
                 "http://localhost:3000"
             )
@@ -49,12 +52,16 @@ def main() -> None:
             assert structured_data["floorSize"]["value"] == 147
             assert structured_data["numberOfBedrooms"] == 3
             assert structured_data["address"]["streetAddress"] == "Rua 27"
-            assert structured_data["offers"]["price"] == 1650000
+            assert "offers" not in structured_data
+            assert "price" not in json.dumps(structured_data)
             common_area_cards = page.locator(".common-area-card")
             assert common_area_cards.count() == 17
             assert page.locator(".common-area-card:visible").count() == (
                 6 if width == 360 else 17
             )
+            assert page.get_by_role(
+                "button", name="Ver todas as 21 fotos"
+            ).count() == (1 if width == 360 else 0)
             assert page.get_by_role(
                 "button", name="Ver todas as 17 fotos"
             ).count() == (1 if width == 360 else 0)
@@ -128,25 +135,14 @@ def main() -> None:
                 assert page.evaluate("document.body.style.overflow") == "hidden"
                 first_menu_link = mobile_menu.get_by_role("link").first
                 last_menu_link = mobile_menu.get_by_role("link").last
-                page.wait_for_function(
-                    "() => document.activeElement === document.querySelector('#mobile-menu a')"
-                )
-                assert first_menu_link.evaluate(
-                    "element => element === document.activeElement"
-                )
+                expect(first_menu_link).to_be_focused()
                 page.keyboard.press("Shift+Tab")
-                assert last_menu_link.evaluate(
-                    "element => element === document.activeElement"
-                )
+                expect(last_menu_link).to_be_focused()
                 page.keyboard.press("Tab")
-                assert first_menu_link.evaluate(
-                    "element => element === document.activeElement"
-                )
+                expect(first_menu_link).to_be_focused()
                 page.keyboard.press("Escape")
                 expect(mobile_menu).to_have_attribute("aria-hidden", "true")
-                assert menu_button.evaluate(
-                    "element => element === document.activeElement"
-                )
+                expect(menu_button).to_be_focused()
 
                 first_gallery = page.locator(".gallery-item").first
                 first_gallery.scroll_into_view_if_needed()

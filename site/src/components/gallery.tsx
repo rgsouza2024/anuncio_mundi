@@ -87,6 +87,12 @@ export function Gallery({ images }: GalleryProps) {
         ))}
       </div>
 
+      <div className="common-areas-action">
+        <button className="button common-areas-more" type="button" onClick={(event) => openAt(0, event.currentTarget)}>
+          Ver todas as {images.length} fotos <span aria-hidden="true">↗</span>
+        </button>
+      </div>
+
       {current && active !== null && (
         <div
           className="lightbox"

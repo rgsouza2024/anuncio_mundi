@@ -265,7 +265,8 @@ h2 {
   min-height: min(960px, 100svh);
   flex-direction: column;
   justify-content: center;
-  padding-top: 90px;
+  padding-top: 96px;
+  padding-bottom: 112px;
 }
 
 .hero .eyebrow {
@@ -321,10 +322,11 @@ h2 {
 }
 
 .hero-price strong {
-  margin-top: 4px;
+  margin-top: 6px;
   font-family: var(--display);
-  font-size: clamp(2rem, 3.5vw, 3.25rem);
+  font-size: clamp(2rem, 3vw, 2.85rem);
   font-weight: 500;
+  line-height: 1.08;
 }
 
 .hero-actions {
@@ -1122,16 +1124,23 @@ h2 {
   border-top: 1px solid rgba(17, 16, 15, 0.4);
 }
 
-.contact-price span,
+.contact-price span {
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
 .contact-price p {
-  font-size: 0.67rem;
+  font-size: 0.72rem;
 }
 
 .contact-price strong {
-  margin: 4px 0 14px;
+  margin: 6px 0 14px;
   font-family: var(--display);
   font-size: 2.2rem;
   font-weight: 500;
+  line-height: 1.08;
 }
 
 .contact-price p {
@@ -1444,11 +1453,12 @@ h2 {
 
   .hero-content {
     min-height: 820px;
-    padding-top: 90px;
+    padding-top: 96px;
+    padding-bottom: 108px;
   }
 
   .hero h1 {
-    font-size: clamp(4rem, 17vw, 7rem);
+    font-size: clamp(3.8rem, 13.5vw, 6.2rem);
   }
 
   .hero h1 span {

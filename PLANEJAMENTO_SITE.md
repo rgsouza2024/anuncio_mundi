@@ -28,7 +28,7 @@ O resultado esperado é uma página:
 | Tráfego inicial | Compartilhamento direto e orgânico |
 | Direção visual | Editorial sofisticada |
 | Paleta | Grafite, dourado contido e marfim |
-| Preço | Visível na primeira tela |
+| Preço | Sem exibição de valor do imóvel na página |
 | Fotografias | Somente imagens reais fornecidas |
 | Áreas comuns | 17 fotografias no desktop; seleção de 6 e lightbox completo no mobile |
 | Localização | Identificar o edifício e abrir mapa externo sob demanda |
@@ -114,7 +114,7 @@ O rodapé deverá informar:
 - selo “Setor Marista · Goiânia”;
 - título “Mundi Consciente Square”;
 - frase principal “Prumada 1. Nascente. Vista livre para a praça.”;
-- investimento “R$ 1.650.000”;
+- destaque comercial “Modalidade: Porteira fechada”;
 - resumo: 147 m², três suítes, três vagas e 20º andar;
 - CTA principal para WhatsApp;
 - CTA secundário “Conhecer o imóvel”, apontando para a próxima seção.
@@ -211,9 +211,9 @@ Não criar espaço vazio ou fotografias simuladas. Quando fotos reais forem forn
 
 O mapa não será incorporado. O clique abrirá uma nova aba com busca pelo empreendimento, usando `noopener` e `noreferrer`.
 
-### 6.11 Investimento, documentação e contato
+### 6.11 Negociação, documentação e contato
 
-- investimento: R$ 1.650.000,00;
+- negociação: Porteira fechada;
 - imóvel quitado, escriturado e registrado;
 - condomínio aproximado: R$ 1.300/mês;
 - CTA final de WhatsApp;
@@ -402,9 +402,9 @@ Metas para teste móvel:
 - confirmar três vagas;
 - confirmar Prumada 1;
 - confirmar 20º andar;
-- confirmar R$ 1.650.000,00;
+- confirmar ausência do valor do imóvel na página e nos metadados;
 - confirmar condomínio aproximado de R$ 1.300,00;
-- confirmar o telefone `+55 61 98147-4572`.
+- confirmar o telefone `+55 62 99945-5780`.
 
 ### Responsividade
 

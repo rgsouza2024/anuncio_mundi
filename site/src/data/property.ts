@@ -24,13 +24,6 @@ function resolveSiteUrl() {
   return "http://localhost:3000";
 }
 
-function formatBrl(value: number) {
-  return `R$ ${value.toLocaleString("pt-BR", {
-    minimumFractionDigits: 2,
-    maximumFractionDigits: 2,
-  })}`;
-}
-
 const name = "Mundi Consciente Square";
 const address = {
   street: "Rua 27",
@@ -40,29 +33,28 @@ const address = {
   stateName: "Goiás",
   country: "BR",
 } as const;
-const priceValue = 1650000;
 const areaValue = 147;
 const floorValue = 20;
 const suiteCount = 3;
 const parkingCount = 3;
 const position = "Prumada 1";
 const orientation = "Nascente";
+const dealModality = "Porteira fechada";
 const area = `${areaValue} m²`;
 const floor = `${floorValue}º andar`;
 const suites = `${suiteCount} suítes`;
 const parking = `${parkingCount} vagas`;
-const price = formatBrl(priceValue);
-const description = `Apartamento de ${area}, ${orientation.toLowerCase()}, com ${suites} e negociação porteira fechada no ${address.district}.`;
+const description = `Apartamento de ${area}, ${orientation.toLowerCase()}, com ${suites} e negociação ${dealModality.toLowerCase()} no ${address.district}.`;
 const seo = {
   title: `${name} à venda | ${area} no ${address.district}`,
-  description: `Apartamento de ${area} à venda no ${address.district}, ${address.city}: ${suites}, ${position}, ${orientation.toLowerCase()}, ${floor} e porteira fechada por ${price}.`,
-  socialTitle: `${name} | ${area} · ${orientation} · Porteira fechada`,
+  description: `Apartamento de ${area} à venda no ${address.district}, ${address.city}: ${suites}, ${position}, ${orientation.toLowerCase()}, ${floor} e ${dealModality.toLowerCase()}.`,
+  socialTitle: `${name} | ${area} · ${orientation} · ${dealModality}`,
   keywords: [
     name,
     `apartamento à venda no ${address.district}`,
     `apartamento ${area} em ${address.city}`,
     `${suiteCount} suítes`,
-    "porteira fechada",
+    dealModality.toLowerCase(),
   ],
   image: {
     url: "/images/social/hero-varanda-vista.webp",
@@ -78,8 +70,7 @@ export const property = {
   address,
   description,
   seo,
-  price,
-  priceValue,
+  dealModality,
   condominium: "Aproximadamente R$ 1.300/mês",
   area,
   areaValue,

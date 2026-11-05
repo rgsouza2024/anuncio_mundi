@@ -12,6 +12,7 @@ export default function Home() {
     "@type": "Apartment",
     name: property.name,
     description: property.description,
+    url: property.siteUrl,
     floorSize: { "@type": "QuantitativeValue", value: property.areaValue, unitCode: "MTK" },
     numberOfBedrooms: property.suiteCount,
     address: {
@@ -20,12 +21,6 @@ export default function Home() {
       addressLocality: property.address.city,
       addressRegion: property.address.state,
       addressCountry: property.address.country,
-    },
-    offers: {
-      "@type": "Offer",
-      price: property.priceValue,
-      priceCurrency: "BRL",
-      url: property.siteUrl,
     },
   };
 
@@ -62,8 +57,8 @@ export default function Home() {
             <p className="hero-statement">{property.position}. {property.orientation}.<br />Vista livre para a praça.</p>
             <div className="hero-bottom">
               <div className="hero-price">
-                <span>Investimento</span>
-                <strong>{property.price}</strong>
+                <span>Modalidade</span>
+                <strong>{property.dealModality}</strong>
               </div>
               <div className="hero-actions">
                 <a className="button button-gold" href={whatsappHref} target="_blank" rel="noopener noreferrer">
@@ -252,8 +247,8 @@ export default function Home() {
               <h2 id="contact-title">Conheça pessoalmente.</h2>
             </div>
             <div className="contact-price">
-              <span>Investimento</span>
-              <strong>{property.price}</strong>
+              <span>Negociação</span>
+              <strong>{property.dealModality}</strong>
               <p>Imóvel informado como quitado, escriturado e registrado.</p>
             </div>
             <a className="contact-action" href={whatsappHref} target="_blank" rel="noopener noreferrer">
