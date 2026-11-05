@@ -52,8 +52,8 @@ A galeria do apartamento reúne 21 fotografias e a seção do condomínio, 17. A
 
 Ao atualizar o conteúdo:
 
-1. Confirmar preço, condomínio, disponibilidade e inventário.
-2. Não inserir o número da unidade em textos, metadados ou arquivos.
+1. Confirmar condomínio, modalidade de negociação, disponibilidade e inventário.
+2. Não inserir o número da unidade nem o valor do imóvel em textos, metadados ou arquivos.
 3. Publicar apenas fotografias reais e sem metadados sensíveis.
 4. Manter a captura de mapa e as artes de referência fora de `public/`.
 5. Executar lint, tipos e build antes da publicação.
